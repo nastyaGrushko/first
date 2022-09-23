@@ -1,5 +1,46 @@
 body * {
-  outline: 1px solid lightgrey;
+  outline: 1px solid lightgray;
 }
 
+.box {
+  margin: 35px 20px 0px;
+}
 
+.header {
+  background-color: rgb(19, 100, 99);
+  height: 49px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.two-green, .row {
+  display: flex;
+  justify-content: center;
+}
+
+.two-green .block {
+  background-color: rgb(59, 133, 34);
+  height: 116px;
+  margin: 34px;
+  width: 100%;
+}
+
+.row .block {
+  height: 147px;
+  width: 33.3%;
+  background-color: rgb(41, 41, 162);
+}
+
+.row .block:first-child {
+  background-color: rgb(227, 3, 3);
+}
+
+.row .block:last-child {
+  background-color: rgb(240, 255, 34);
+}
+
+.last {
+  background-color: rgb(170, 170, 170);
+  height: 100px;
+  margin-top: 34px;
+}
