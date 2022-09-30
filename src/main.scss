@@ -2,4 +2,107 @@ body * {
   outline: 1px solid lightgrey;
 }
 
+.header, .container, .main {
+  padding: 0 220px;
+}
+
+.header {
+  height: 125px;
+}
+
+.logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+}
+
+.logo-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.txt-orange {
+  font-family: Calibri;
+  font-size: 35px;
+  color: #fb9d06;
+}
+
+.txt-rabbit {
+  font-family: Calibri;
+  font-size: 37px;
+  color: #6e6d6b;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.slider {
+  height: 390px;
+  background-image: url(/img/big-orange-bg.png);
+  border-top: #fb9c06 solid 5px;
+  border-bottom: #fb9c06 solid 5px;
+} 
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.slider-txt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.first-txt {
+  width: 380px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.655);
+  font-size: 35px;
+  color: #fb9d06;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.second-txt {
+  width: 395px;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 35px;
+  color: #6e6d6b;
+  background-color: #ffa81bb8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main {
+  height: 600px;
+}
+
+.row {
+  display: flex;
+}
+ .row-block {
+  width: 25%;
+  padding: 35px 20px 0;
+}
+
+.more {
+  text-align: end;
+  color: #fb9c06;
+  font-family: Calibri;
+  font-style: oblique;
+}
+
+.footer {
+  height: 100px;
+  background-color: #fb9c06;
+}
+
+
+
 
