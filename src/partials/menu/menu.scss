@@ -1,6 +1,14 @@
 .menu {
     padding: 5px 0px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.menu:hover {
+    cursor: pointer;
 }
 
 .main-menu {
@@ -9,5 +17,5 @@
 }
 
 .icon-txt {
-    color: gray;
+    color: $main-color-two;
 }

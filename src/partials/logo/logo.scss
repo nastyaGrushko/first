@@ -1,13 +1,13 @@
  .header-txt-f {
     // font-family: Calibri;
     font-size: 35px;
-    color: #fb9d06;
+    color: $main-color-one;
 }
   
 .header-txt-s {
     // font-family: Calibri;
     font-size: 37px;
-    color: #6e6d6b;
+    color: $main-color-two;
     text-transform: uppercase;
     font-weight: bold;
 }

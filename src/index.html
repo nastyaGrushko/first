@@ -23,7 +23,7 @@
     <div class = "slider">
       @@include("./partials/slider/_slider.html",{"first-txt":"Do you like rabbits?","second-txt":"Do you like oranges?"})
     </div>
-    <div class = "main">
+    <div class = "big-part">
         <div class = "row">
           <div class = "row-block">
           <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
@@ -41,6 +41,34 @@
           <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
           <div class = "more">read more...</div>
           </div>
+        </div>
+        <div class = "team">
+          <div class = "team-header">Meet the team</div>
+          <div class = "members">
+            @@include("./partials/big-part/_big-part.html",{"name":"Hoof","post":"Lead Designer"})
+            @@include("./partials/big-part/_big-part.html",{"name":"Nibs","post":"CEO/Director"})
+            @@include("./partials/big-part/_big-part.html",{"name":"Squawk","post":"Developer"})
+          </div>
+        </div>
+        <div class = "message">
+          <div class = "message-title"> Send us a message... </div>
+          <div class = "fields">
+            <label class = "label">
+              Name:
+              <input type = "text">
+            </label>
+            <label class = "label">
+              Email:
+              <input type = "email">
+            </label >
+            <label class = "label">
+              Message: 
+              <textarea rows = "2"></textarea>
+            </label>
+          </div>
+        </div> 
+        <div class = "button">
+          Submit
         </div>
     </div>
     <div class = "footer">

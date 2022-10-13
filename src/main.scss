@@ -1,13 +1,15 @@
+@import "./variables.scss";
 @import "./sprites.scss";
 @import "./partials/logo/logo.scss";
-@import "./partials/slider/slider.scss";
 @import "./partials/menu/menu.scss";
+@import "./partials/slider/slider.scss";
+@import "./partials/big-part/big-part.scss";
 
 body * {
   outline: 1px solid lightgrey;
 }
 
-.slider-container, .main, .header{
+.slider-container, .big-part, .header{
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -22,6 +24,7 @@ body * {
   display: flex;
   align-items: center;
   column-gap: 40px;
+  margin-bottom: 15px;
 }
 
 .logo-txt {
@@ -33,8 +36,8 @@ body * {
 .slider {
   height: 390px;
   background-image: url(/img/big-orange-bg.png);
-  border-top: #fb9c06 solid 5px;
-  border-bottom: #fb9c06 solid 5px;
+  border-top: $main-color-one  solid 5px;
+  border-bottom: $main-color-one solid 5px;
 } 
 
 .slider-container {
@@ -50,8 +53,9 @@ body * {
   gap: 27px;
 }
 
-.main {
-  height: 600px;
+.big-part {
+  display: flex;
+  flex-direction: column;
 }
 
 .row {
@@ -59,19 +63,69 @@ body * {
 }
  .row-block {
   width: 25%;
-  padding: 35px 20px 0;
+  padding: 35px 15px 0;
 }
 
 .more {
   text-align: end;
-  color: #fbca06;
+  color: $main-color-one;
   font-family: Calibri;
   font-style: oblique;
 }
 
+.team {
+  height: 200px;
+}
+
+.team-header, .message-title {
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  color: $main-color-one;
+  margin: 25px 0 40px;
+}
+
+.members {
+  display: flex;
+  gap: 50px;
+}
+
+.member{
+  width: 33%;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+.fields {
+  padding: 0 10px;
+}
+
+.label {
+  display: grid;
+  gap: 35px;
+  grid-template-columns: 50px 1069px;
+  color: $main-color-one;
+  margin-top: 25px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $main-color-one;
+  color: white;
+  width: 100px;
+  height: 45px;
+  text-align: end;
+  margin-top: 25px;
+}
+
 .footer {
   height: 100px;
-  background-color: #fb9c06;
+  background-color: $main-color-one;
 }
 
 
