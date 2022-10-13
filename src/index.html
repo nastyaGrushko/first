@@ -8,43 +8,40 @@
     <script src="./js/main.js" defer></script>
   </head>
   <body>
-    <div class = "header">
-      <div class = "logo">
-        <img src = "./img/rabbit.png">
-        <div class = "logo-txt">
-            <div class = "txt-orange">orange</div>
-            <div class = "txt-rabbit">rabbit</div>
+    <header>
+      <div class = "header">
+        @@include("./partials/logo/_logo.html",{"header-txt-f":"orange","header-txt-s":"rabbit"})
+        <div class="main-menu">
+          @@include("./partials/menu/_menu.html", {"menu-icons":"home"})
+          @@include("./partials/menu/_menu.html", {"menu-icons":"about"})
+          @@include("./partials/menu/_menu.html", {"menu-icons":"work"})
+          @@include("./partials/menu/_menu.html", {"menu-icons":"blog"})
+          @@include("./partials/menu/_menu.html", {"menu-icons":"contact"})
         </div>
       </div>
-      <div class = "menu"></div>
-    </div>
+    </header>
     <div class = "slider">
-      <div class = "container">
-        <div class = "slider-txt">
-          <div class = "first-txt">Do you like rabbits? </div>
-          <div class = "second-txt">Do you like oranges?</div>
-        </div>
-      </div>
+      @@include("./partials/slider/_slider.html",{"first-txt":"Do you like rabbits?","second-txt":"Do you like oranges?"})
     </div>
     <div class = "main">
-      <div class = "row">
-        <div class = "row-block">
+        <div class = "row">
+          <div class = "row-block">
           <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
           <div class = "more">read more...</div>
-        </div>
-        <div class = "row-block">
+          </div>
+          <div class = "row-block">
           <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
           <div class = "more">read more...</div>
-        </div>
-        <div class = "row-block">
+          </div>
+          <div class = "row-block">
           <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
           <div class = "more">read more...</div>
-        </div>
-        <div class = "row-block">
+          </div>
+          <div class = "row-block">
           <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
           <div class = "more">read more...</div>
+          </div>
         </div>
-      </div>
     </div>
     <div class = "footer">
     </div>
