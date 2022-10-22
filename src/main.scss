@@ -4,13 +4,14 @@
 @import "./partials/menu/menu.scss";
 @import "./partials/slider/slider.scss";
 @import "./partials/big-part/big-part.scss";
+@import "./partials/footer/footer.scss";
 
 body * {
   outline: 1px solid lightgrey;
 }
 
 .slider-container, .big-part, .header{
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -18,81 +19,6 @@ body * {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  column-gap: 40px;
-  margin-bottom: 15px;
-}
-
-.logo-txt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.slider {
-  height: 390px;
-  background-image: url(/img/big-orange-bg.png);
-  border-top: $main-color-one  solid 5px;
-  border-bottom: $main-color-one solid 5px;
-} 
-
-.slider-container {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-.slider-txt {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 27px;
-}
-
-.big-part {
-  display: flex;
-  flex-direction: column;
-}
-
-.row {
-  display: flex;
-}
- .row-block {
-  width: 25%;
-  padding: 35px 15px 0;
-}
-
-.more {
-  text-align: end;
-  color: $main-color-one;
-  font-family: Calibri;
-  font-style: oblique;
-}
-
-.team {
-  height: 200px;
-}
-
-.team-header, .message-title {
-  text-align: center;
-  font-size: 35px;
-  text-decoration: underline;
-  color: $main-color-one;
-  margin: 25px 0 40px;
-}
-
-.members {
-  display: flex;
-  gap: 50px;
-}
-
-.member{
-  width: 33%;
-  text-align: center;
 }
 
 textarea {
@@ -123,10 +49,6 @@ textarea {
   margin-top: 25px;
 }
 
-.footer {
-  height: 100px;
-  background-color: $main-color-one;
-}
 
 
 

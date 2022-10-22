@@ -1,22 +1,44 @@
+.slider {
+  height: 390px;
+  background-image: url(/img/big-orange-bg.png);
+  background-position: 30%;
+  border-top: $main-color-one  solid 5px;
+  border-bottom: $main-color-one solid 5px;
+} 
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.slider-txt {
+  width: 380px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-left: 15px;
+}
 
 .first-txt {
-    width: 380px;
-    padding: 10px 0;
+    width: 350px;
+    padding-top: 2px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.655);
-    font-size: 35px;
-    color: #fb9d06;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(0, 0, 0, 0.725);
+    font-size: 45px;
+    color: $main-color-one;
     text-transform: uppercase;
-    font-weight: bold;
   }
   
   .second-txt {
-    width: 395px;
-    padding: 15px 0;
+    width: 380px;
+    padding: 5px 0;
     text-align: center;
-    font-size: 35px;
-    color: #6e6d6b;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    color: $main-color-two;
     background-color: #ffa81bb8;
     text-transform: uppercase;
-    font-weight: bold;
   }

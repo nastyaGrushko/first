@@ -1,3 +1,56 @@
+.big-part {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+   .row-block {
+    width: 25%;
+    padding: 35px 15px 0;
+  }
+  
+  .more {
+    text-align: end;
+    color: $main-color-one;
+    font-family: Calibri;
+    font-style: oblique;
+  }
+  
+  .team {
+    height: 200px;
+  }
+  
+  .team-header, .message-title {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    color: $main-color-one;
+    margin: 25px 0 40px;
+  }
+  
+  .members {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .member{
+    width: 33%;
+    text-align: center;
+  }
+
 .member {
-    color: gray;
+    color: $main-color-two;
+}
+
+.mem-title {
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.post {
+    color: $main-color-one;
 }
