@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+}
+.row-block {
+    width: 25%;
+    padding: 35px 15px 0;
+    font-family: Calibri;
+    font-weight: bold;
+}
+  
+.more {
+    display: flex;
+    text-align: right;
+    color: $main-color-one;
+    font-family: Calibri;
+    font-style: oblique;
+    margin-bottom: 30px;
+}
+  

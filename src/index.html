@@ -27,22 +27,11 @@
     </div>
     <div class = "big-part">
         <div class = "row">
-          <div class = "row-block">
-          <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
-          <div class = "more">read more...</div>
-          </div>
-          <div class = "row-block">
-          <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
-          <div class = "more">read more...</div>
-          </div>
-          <div class = "row-block">
-          <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
-          <div class = "more">read more...</div>
-          </div>
-          <div class = "row-block">
-          <div class = "lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem neque harum accusantium minima, ea beatae architecto hic inventore odit, nesciunt pariatur!</div>
-          <div class = "more">read more...</div>
-          </div>
+          @@include("./partials/big-part/_row.html")
+          @@include("./partials/big-part/_row.html")
+          @@include("./partials/big-part/_row.html")
+          @@include("./partials/big-part/_row.html")
+          <!-- <input id = "toggler" type = "checkbox"> -->
         </div>
         <div class = "team">
           <div class = "team-header">Meet the team</div>
@@ -55,23 +44,21 @@
         <div class = "message">
           <div class = "message-title"> Send us a message... </div>
           <div class = "fields">
-            <label class = "label">
+            <label class = "mess-label">
               Name:
               <input type = "text">
             </label>
-            <label class = "label">
+            <label class = "mess-label">
               Email:
-              <input type = "email">
+              <input type = "email" >
             </label >
-            <label class = "label">
+            <label class = "mess-label">
               Message: 
               <textarea rows = "2"></textarea>
             </label>
           </div>
         </div> 
-        <div class = "button">
-          Submit
-        </div>
+        @@include("./partials/big-part/_button.html",{"button":"Submit"})
     </div>
     @@include("./partials/footer/_footer.html",{"footer":"Copyright Orange Rabbit — designed by Jake Bhatt."})
   </body>

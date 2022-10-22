@@ -1,0 +1,22 @@
+.button-wrapper {
+    display: flex;
+    justify-content: end;
+    padding-right: 35px;
+}
+  
+.button {
+    margin: 17px 0 40px;
+    width: 165px;
+    height: 45px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Josefin Slab', serif;
+    background-color: $main-color-one;
+    border: 0;
+    border-bottom: 3px $bottom-border solid;
+}
+  
+.button:hover {
+    cursor: pointer;
+}
+  

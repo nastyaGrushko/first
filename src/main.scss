@@ -4,6 +4,8 @@
 @import "./partials/menu/menu.scss";
 @import "./partials/slider/slider.scss";
 @import "./partials/big-part/big-part.scss";
+@import "./partials/big-part/row.scss";
+@import "./partials/big-part/button.scss";
 @import "./partials/footer/footer.scss";
 
 body * {
@@ -29,27 +31,22 @@ textarea {
   padding: 0 10px;
 }
 
-.label {
+.mess-label {
   display: grid;
-  gap: 35px;
-  grid-template-columns: 50px 1069px;
+  gap: 50px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  font-weight: bold;
+  grid-template-columns: 50px auto;
   color: $main-color-one;
   margin-top: 25px;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $main-color-one;
-  color: white;
-  width: 100px;
-  height: 45px;
-  text-align: end;
-  margin-top: 25px;
+input, textarea {
+  font-family: 'Josefin Slab', serif;
+  background-color: $input-color;
+  border-left: 3px $menu-txt solid;
+  border-top: 1px $menu-txt solid;
+  border-bottom: 0;
+  border-right: 0;
 }
-
-
-
-
-
