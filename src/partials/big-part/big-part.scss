@@ -36,6 +36,18 @@
 
 .photo {
     border: 1px $main-color-one solid;
+    border-radius: 50%;
+    margin: 10px 0;
     padding: 50% 0;
-
+    text-align: center;
+    background-position: 65% 30%; 
 }
+
+.Hoof {
+    background-image: url('/img/Hoof.jpg');
+}
+
+.Nibs {
+    background-image: url('/img/Nibs.jpg');
+}
+
