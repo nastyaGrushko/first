@@ -9,7 +9,7 @@
     font-family: 'Josefin Slab', serif;
     text-decoration: underline;
     color: $main-color-one;
-    margin: 30px 0 40px;
+    margin: 40px 0 40px;
 }
   
 .members {
@@ -21,9 +21,12 @@
     width: 33%;
     text-align: center;
     color: $main-color-two;
+    font-size: 20px;
 }
 
 .mem-title {
+    font-size: 22px;
+    font-family: Calibri;
     padding: 10px;
     display: flex;
     gap: 5px;
@@ -35,7 +38,7 @@
 }
 
 .photo {
-    border: 1px $main-color-one solid;
+    border: 5px $main-color-one solid;
     border-radius: 50%;
     margin: 10px 0;
     padding: 50% 0;
@@ -44,10 +47,22 @@
 }
 
 .Hoof {
-    background-image: url('/img/Hoof.jpg');
+    background-image: url('/img/Hoof.jpeg');
 }
 
 .Nibs {
     background-image: url('/img/Nibs.jpg');
 }
 
+.Squawk {
+    background-image: url('/img/Squawk.jpg');
+    background-position: 95% 10%; 
+}
+
+.description {
+    margin: 25px 30px 0;
+    font-size: 15px;
+    color: $description-color;
+    font-family: Calibri;
+    text-align: start;
+}
