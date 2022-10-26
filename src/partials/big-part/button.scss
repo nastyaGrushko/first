@@ -18,5 +18,9 @@
   
 .button:hover {
     cursor: pointer;
+    background-color: white;
+    color: $main-color-one;
+    font-weight: bold;
+    border: 2px $main-color-one solid;
 }
   
