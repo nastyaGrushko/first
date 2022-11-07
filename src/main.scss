@@ -1,5 +1,74 @@
 body * {
   outline: 1px solid lightgrey;
+  font-family: Calibri;
 }
 
+header {
+  background-color: #0d65f3;
+  min-height: 60px;
+  max-width: 100%;
+  color: white;
+  text-align: center;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  position: sticky;
+  top: 0;
+}
 
+.inwebsale, .main-profile{
+  font-weight: bold;
+  display: flex;
+  gap: 20px;
+}
+
+.group-of-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.event:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.goods:hover {
+  color: white;
+  cursor: pointer;
+} 
+
+.customers:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 600px;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  color: darkgray;
+}
