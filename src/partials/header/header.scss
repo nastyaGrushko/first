@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+} 
+  
+  .header-icons {
+    display: flex;
+    gap: 25px;
+}
+  
+  .dehaze {
+    border: none;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 600,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.dehaze:hover, .person:hover, .favorite:hover, .shopping_bag:hover, .search:hover {
+  cursor: pointer;
+  color: $main-color-violet;
+  font-variation-settings:
+  'FILL' 1, 
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.search-icon {
+  display: flex;
+  gap: 15px;
+}
+
+.search-field {
+  border: none;
+  background: none;
+  border-bottom: gray 1px solid;
+  width: 300px;
+}

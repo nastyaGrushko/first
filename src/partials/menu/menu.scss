@@ -1,0 +1,25 @@
+.menu-input {
+    display: none;
+}
+
+.menu-input:checked ~ .menu-container {
+    background-color: #111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    width: 20vw;
+    height: 100vh;
+    // animation: animate-down 1s linear ;
+    & .menu-item{
+      padding: 10px;
+    }
+    & .closer:hover {
+      cursor: pointer;
+    }
+}
+  
+  .menu-input ~ .menu-container {
+   display: none;
+}

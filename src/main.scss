@@ -1,77 +1,18 @@
+@import "./variables.scss";
+@import "./partials/header/header.scss";
+@import "./partials/menu/menu.scss";
+@import "./partials/main-page/main-page.scss";
+
 body * {
-  outline: 1px solid lightgrey;
-  font-family: Calibri;
-  background-color: #fffdf5;
+  // outline: 1px solid lightgrey;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-container {
-  padding: 0 100px;
+background-color: $background-color;
+padding: 0 135px;
 }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-} 
-
-.header-icons {
-  display: flex;
-  gap: 25px;
-}
-
-.dehaze {
-  border: none;
-}
-
-.menu-input {
-  display: none;
-}
-.menu-input:checked ~ .menu-container {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 8px;
-  width: 45vh;
-  & .menu-item{
-    padding: 10px;
-  }
-  & .closer {
-    height: 100px;
-    text-align: center;
-  }
-}
-
-.menu-input ~ .menu-container {
- display: none;
-}
-
-.main-page {
-  height: 600px;
-  display: flex;
-  padding-top: 30px;
-}
-
-.main-page-column {
-  width: 50%;
-}
-
-.catalog {
-  border-radius: 50%;
-  border: #514a7e 1px solid;
-  width: 150px;
-  height: 150px;
-  color: #514a7e;
-  background-color: none;
-  font-size: larger;
-}
-
-.catalog:hover {
-  color: white;
-  background-color: #514a7e;
-  cursor: pointer;
-  box-shadow: 0px 0px 30px #514a7e;
-}
-
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -81,21 +22,57 @@ header {
   'opsz' 48
 }
 
-.person:hover, .favorite:hover, .shopping_bag:hover, .search:hover {
-  cursor: pointer;
-  color: #514a7e;
-  font-variation-settings:
-  'FILL' 1, 
-  'wght' 300,
-  'GRAD' 0,
-  'opsz' 48
-}
+// @keyframes animate-down {
+//   0% {
+//     top: 0;
+//     transform: translate(0, -100%);
+//   }
 
-.search-icon {
+//   100% {
+//     top: 100%;
+//     transform: translate(0%, -100%);
+//   }
+// }
+
+// @keyframes animate-up {
+//   0% {
+//     top: 0;
+//     transform: translate(0, 100%);
+//   }
+
+//   100% {
+//     top: 100%;
+//     transform: translate(0%, 100%);
+//   }
+// }
+
+.catalog-container {
   display: flex;
+  justify-content: center;
 }
 
-.search-field {
-  border: none;
-  border-bottom: gray 1px solid;
+.catalog {
+  border-radius: 50%;
+  border: $main-color-violet 1px solid;
+  width: 190px;
+  height: 190px;
+  color: $main-color-violet;
+  background: none;
+  font-size: larger;
 }
+
+.catalog:hover{
+  color: white;
+  background-color: $main-color-violet;
+  cursor: pointer;
+  box-shadow: 0px 0px 30px $main-color-violet;
+  & .arrow {
+    background: none;
+    font-variation-settings:
+    'FILL' 0, 
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 48
+  }
+}
+
