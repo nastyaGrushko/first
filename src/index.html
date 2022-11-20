@@ -4,34 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./main.scss">
-    <title>First project</title>
+    <title>Final project</title>
     <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <body>
-    <header>
-      <div class="inwebsale">
-        <div class="site-icon">icon</div>
-        <div class="site-name">inwebsale</div>
+    <div class = "main-container">
+      <header>
+        <label for = "status" class="material-symbols-outlined dehaze">
+          dehaze
+        </label >
+        <div class = "header-icons">
+          <div class = "search-icon">
+            <span class = "material-symbols-outlined search">
+              search
+              </span>
+              <input type = "text" class = "search-field" >
+          </div>
+          <span class = "material-symbols-outlined person">
+            person
+            </span>
+          <span class = "material-symbols-outlined favorite">
+            favorite
+          </span>
+          <span class = "material-symbols-outlined shopping_bag">
+            shopping_bag
+            </span>
+        </div>
+      </header>
+      <input type = "checkbox" id = "status" class = "menu-input">
+      <div class="menu-container">
+        <label for = "status" class="menu-item closer">
+          Заголовок
+        </label>
+        <div class="menu-item">menu item</div>
+        <div class="menu-item">menu item</div>
+        <div class="menu-item">menu item</div>
+        <div class="menu-item">menu item</div>
+        <div class="menu-item">menu item</div>
+        <div class="menu-item">menu item</div>
+        <div class="menu-item">menu item</div>
+        <div class="menu-item">menu item</div>
+        <div class="menu-item">menu item</div>
       </div>
-      <div class="group-of-three">
-        <div class="event">Мероприятия</div>
-        <div class="goods">Товары</div>
-        <div class="customers">Клиенты</div>
+      <div class = "main-page">
+        <div class="main-page-column left-col">
+          <img class="left-main-img" src = "./img/ГлавнаяСтраницаСлева.jpg">
+          <div class="left-txt-top">Welcome</div>
+          <div class="left-txt-bottom">meowmeow</div>
+        </div>
+        <div class="main-page-column right-col">
+          <img class="right-main-img" src = "./img/ГлавнаяСтраницаСправа.jpg">
+        </div>
       </div>
-      <div class="main-profile">
-        <div class="user-icon">Img</div>
-        <div class="user">Name?</div>
-        <div class="icon-out">Out</div>
-      </div>
-    </header>
-    <div class="main-content">
-      <div class="title">Создание мероприятия</div>
-      <div class="columns">
-        <div class="column">1</div>
-        <div class="column">2</div>
-      </div>
-      <div class="button"></div>
+      <button class = "catalog">
+        Каталог 
+        <span class="material-symbols-outlined">
+          arrow_right_alt
+          </span>
+      </button>
     </div>
-    <footer>Trade Broadcast 2022</footer>
-  </body>
+    </body>
 </html>
