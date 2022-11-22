@@ -25,27 +25,31 @@ padding: 0 135px;
   'opsz' 48
 }
 
-// @keyframes animate-down {
-//   0% {
-//     top: 0;
-//     transform: translate(0, -100%);
-//   }
-
-//   100% {
-//     top: 100%;
-//     transform: translate(0%, -100%);
-//   }
-// }
-
-// @keyframes animate-up {
-//   0% {
-//     top: 0;
-//     transform: translate(0, 100%);
-//   }
-
-//   100% {
-//     top: 100%;
-//     transform: translate(0%, 100%);
-//   }
-// }
-
+@media (max-width: 450px) {
+  .main-container {
+    width: 100%;
+    padding: 0;
+    // background-image: url(/img/ГлавнаяСтраницаСлева.jpg);
+    background-color: gray;
+  }
+  .search-icon {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    // width: 351.25px;
+    height: 4%;
+    background-color: rgb(190, 190, 255);
+    border-radius: 10px;
+  }
+  header {
+    width: 100%;
+    background-color: $main-color-violet;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  // .main-page {
+  //   display: none;
+  // }
+}

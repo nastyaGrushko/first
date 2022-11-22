@@ -21,7 +21,7 @@
             <span class = "material-symbols-outlined search">
               search
               </span>
-              <input type = "text" class = "search-field" >
+              <input type = "text" placeholder="Поиск" class = "search-field" >
           </div>
           <div class = "person_container">
             <label for = "person_checkout" class = "material-symbols-outlined person">
@@ -29,9 +29,12 @@
             </label>
             <input type = "checkbox" id = "person_checkout" class = "customer-page_checkout">
             <div class = "customer-page">
-              <div class = "customer-page item photo"> photo </div>
+              <!-- <img class = "customer-page item photo" src="./img/ГлавнаяСтраницаСлева.jpg" width="218" height="202">   -->
+              <div class = "customer-page photo_box">
+                <div class = "customer-page photo"></div>
+              </div>
               <div class = "login-button-box">
-                <button class = "customer-page item login">Вход</button>
+                <button class = "customer-page item login">Войти</button>
               </div>
               @@include("./partials/header/customer-page/_customer-page.html",{"item":"shopping_bag","name":"Корзина"})
               <div class = "customer-page item line"></div>

@@ -10,44 +10,62 @@
     top: 85px;
     right: 143px;
     width: 210px;
-    // height: 240px;
+    height: 240px;
     font-size: 12px;
     font-weight: bold;
     box-shadow: 0px 2px 5px $box-shadow-color-one;
-    & .material-symbols-outlined {
-        color: black;
-        font-variation-settings:
-        'FILL' 0,
-        'wght' 300,
-        'GRAD' 0,
-        'opsz' 48
-      }
-    & .item {
-    //   padding: 15px 0 0 26px;
-      color: black;
-    }
     & .line {
         border-bottom: $customer-page-line-color 1px solid ;
     }
-    // & .shopping_bag, .favorite, .seen {
-    //     display: flex;
-    //     gap: 20px;
-    // }
-    // & .shopping_bag-txt, .favorite-txt, .seen-txt {
-    //     display: flex;
-    //     justify-content: end;
-    //     align-items: center;
-    // }
-    & .login {
-        width: 109px;
-        height: 26px;
-        // left: 51px;
-        // top: 72px;
-        text-align: start;
+    & .shopping_bag, .favorite, .visibility {
+        display: flex;
+        gap: 13px;
+    }
+    & .shopping_bag-txt, .favorite-txt, .visibility-txt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .login-button-box {
+      display: flex;
+      justify-content: center;
+      & .customer-page {
+          width: 109px;
+          height: 26px;
+          font-size: 14px;
+          font-weight: bold;
+          text-align: center;
+          background-color: $main-color-violet;
+          color: white;
+          border: none;
+        }
+        & .customer-page:hover {
+          background-color: $background-color;
+          color: $main-color-violet;
+          border: $main-color-violet 1px solid;
+          cursor: pointer;
+      }
     }
 }
-  
-  .customer-page_checkout ~ .customer-page {
+
+.photo_box {
+  display: flex;
+  padding: 10px;
+  & .photo {
+    justify-content: center;
+    border: 1px gray solid;
+    border-radius: 50%;
+    padding: 12% 12%;
+    // background-position: 65% 30%;
+    background-image: url("/img/ГлавнаяСтраницаСлева.jpg");
+  }
+}
+
+.customer-page_box {
+  padding: 10px 23px;
+}
+
+.customer-page_checkout ~ .customer-page {
    display: none;
 }
 

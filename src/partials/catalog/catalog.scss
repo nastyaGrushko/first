@@ -4,6 +4,10 @@
   }
   
   .catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     border-radius: 50%;
     border: $main-color-violet 1px solid;
     width: 190px;

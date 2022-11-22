@@ -1,15 +1,19 @@
 header {
+  background-color: $background-color;
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    // position: fixed;
+    top: 0px;
+    // width: 100%;
 } 
   
-  .header-icons {
+.header-icons {
     display: flex;
     gap: 25px;
 }
   
-  .dehaze {
+.dehaze {
     border: none;
     font-variation-settings:
     'FILL' 0,
@@ -18,7 +22,7 @@ header {
     'opsz' 48
 }
 
-.dehaze:hover, .person:hover, .favorite:hover, .shopping_bag:hover, .search:hover {
+.material-symbols-outlined:hover {
   cursor: pointer;
   color: $main-color-violet;
   font-variation-settings:
