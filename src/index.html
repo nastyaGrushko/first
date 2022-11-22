@@ -23,15 +23,28 @@
               </span>
               <input type = "text" class = "search-field" >
           </div>
-          <span class = "material-symbols-outlined person">
-            person
-            </span>
+          <div class = "person_container">
+            <label for = "person_checkout" class = "material-symbols-outlined person">
+              person
+            </label>
+            <input type = "checkbox" id = "person_checkout" class = "customer-page_checkout">
+            <div class = "customer-page">
+              <div class = "customer-page item photo"> photo </div>
+              <div class = "login-button-box">
+                <button class = "customer-page item login">Вход</button>
+              </div>
+              @@include("./partials/header/customer-page/_customer-page.html",{"item":"shopping_bag","name":"Корзина"})
+              <div class = "customer-page item line"></div>
+              @@include("./partials/header/customer-page/_customer-page.html",{"item":"favorite","name":"Избранное"})
+              @@include("./partials/header/customer-page/_customer-page.html",{"item":"visibility","name":"Просмотренное"})
+            </div>
+          </div>
           <span class = "material-symbols-outlined favorite">
             favorite
           </span>
           <span class = "material-symbols-outlined shopping_bag">
             shopping_bag
-            </span>
+          </span>
         </div>
       </header>
       <input type = "checkbox" id = "status" class = "menu-input">
@@ -71,8 +84,19 @@
           Каталог 
           <span class="material-symbols-outlined arrow">
             arrow_right_alt
-            </span>
+          </span>
         </button>
+      </div>
+      <div class = "why-we_container">
+        <div class="why-we_header">Почему выбирают нас?</div>
+        <div class="why-we_items">
+          <div class="why-we_item item1">1</div>
+          <div class="why-we_item item2">2</div>
+          <div class="why-we_item item3">3</div>
+          <!-- <div class="why-we_item item4">4</div>
+          <div class="why-we_item item5">5</div>
+          <div class="why-we_item item6">6</div> -->
+        </div>
       </div>
     </div>
   </body>

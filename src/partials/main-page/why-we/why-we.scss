@@ -1,0 +1,39 @@
+.why-we {
+    &_container {
+        padding-top: 150px;
+    }
+    &_header {
+        font-size: 40px;
+        font-weight: bold;
+    }
+   &_items {
+    padding-top: 95px;
+    display: grid;
+    grid-template: 
+    "item1 . item2" 
+    ". item3 .";
+    // 20px / 1fr 0.5fr 1fr
+   }
+   
+   &_item {
+    height: 40px;
+   }
+    .item1 {
+        grid-area: item1;
+    }
+    .item2 {
+        grid-area: item2;
+    }
+    .item3 {
+         grid-area: item3;
+    }
+    // .item4 {
+    //     grid-area: item4;
+    // }
+    // .item5 {
+    //     grid-area: item5;
+    // }
+    // .item6 {
+    //     grid-area: item6;
+    // }
+}
