@@ -51,8 +51,8 @@
 .photo_box {
   display: flex;
   padding: 10px;
+  justify-content: center;
   & .photo {
-    justify-content: center;
     border: 1px gray solid;
     border-radius: 50%;
     padding: 12% 12%;
