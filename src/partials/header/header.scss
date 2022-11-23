@@ -1,16 +1,19 @@
 header {
-  background-color: $background-color;
+  // background-color: $background-color;
+  background-color: $background-color-header;
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
-    // position: fixed;
+    padding: 5vh 9.5vw 2px;
+    position: fixed;
     top: 0px;
-    // width: 100%;
+    left: 0px;
+    right: 10px;
+    width: 100%;
 } 
   
 .header-icons {
     display: flex;
-    gap: 25px;
+    gap: 20px;
 }
   
 .dehaze {
