@@ -1,5 +1,4 @@
 header {
-  // background-color: $background-color;
   background-color: $background-color-header;
     display: flex;
     justify-content: space-between;
@@ -17,7 +16,6 @@ header {
 }
   
 .dehaze {
-    border: none;
     font-variation-settings:
     'FILL' 0,
     'wght' 600,

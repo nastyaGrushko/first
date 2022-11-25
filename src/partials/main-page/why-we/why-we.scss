@@ -1,23 +1,6 @@
 .why-we {
     &_container {
         padding-top: 150px;
-    }
-    &_header {
-        font-size: 40px;
-        font-weight: bold;
-    }
-   &_items {
-    padding-top: 95px;
-    display: grid;
-    grid-template: 
-    "item1 item2 item3 item4"
-    "item5 item2 item3 item6" ;
-    // 20px / 1fr 1fr 1fr 1fr
-   }
-   
-   &_item {
-    height: 40px;
-   }
     .item1 {
         grid-area: item1;
     }
@@ -36,4 +19,22 @@
     .item6 {
         grid-area: item6;
     }
+
+}
+    &_header {
+        font-size: 40px;
+        font-weight: bold;
+    }
+   &_items {
+    padding-top: 95px;
+    display: grid;
+    grid-template: 
+    "item1 . item2 . item3 . item4 ."
+    " . item5 .  . . item6 . ." ;
+   }
+   
+   &_item {
+    height: 40px;
+   }
+    
 }

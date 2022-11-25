@@ -17,15 +17,23 @@
     & .line {
         border-bottom: $customer-page-line-color 1px solid ;
     }
+
     & .shopping_bag, .favorite, .visibility {
         display: flex;
         gap: 13px;
-    }
+      }
+
+      & .shopping_bag:hover, .favorite:hover, .visibility:hover {
+       color: $main-color-violet;
+       cursor: pointer;
+      }
+      
     & .shopping_bag-txt, .favorite-txt, .visibility-txt {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+
     & .login-button-box {
       display: flex;
       justify-content: center;
