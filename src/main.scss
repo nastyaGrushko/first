@@ -7,9 +7,10 @@
 @import "./partials/main-page/sale/sale.scss";
 @import "./partials/main-page/why-we/why-we.scss";
 @import "./partials/main-page/faq-part/faq.scss";
+@import "./partials/main-page/partnership/part-ship.scss";
 
 body * {
-  // outline: 1px solid lightgrey;
+  outline: 1px solid lightgrey;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
