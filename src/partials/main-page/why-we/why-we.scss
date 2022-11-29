@@ -19,22 +19,19 @@
     .item6 {
         grid-area: item6;
     }
-
 }
     &_header {
         font-size: 40px;
         font-weight: bold;
     }
+
    &_items {
     padding-top: 95px;
+    // column-gap: 190px;
+    // padding-right: 140px;
     display: grid;
     grid-template: 
-    "item1 . item2 . item3 . item4 ."
-    " . item5 . . . item6 . ." ;
+    "item1 . item2 item3 . item4"
+    " . item5 . . item6 ." ;
    }
-   
-   &_item {
-    height: 40px;
-   }
-    
 }
