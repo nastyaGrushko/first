@@ -8,7 +8,7 @@
 @import "./partials/catalog/catalog.scss";
 
 body * {
-  // outline: 1px solid lightgrey;
+  outline: 1px solid lightgrey;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -26,7 +26,7 @@ padding: 0 135px;
   'opsz' 48
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .main-container {
     width: 100%;
     padding: 0;
@@ -39,7 +39,7 @@ padding: 0 135px;
     left: 0;
     width: 100%;
     // width: 351.25px;
-    height: 4%;
+    // height: 4%;
     background-color: white;
     border-radius: 10px;
   }
@@ -48,10 +48,13 @@ padding: 0 135px;
     height: 60px;
     background-color: $main-color-violet;
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 50%;
+    // left: 100;
   }
-  // .main-page {
-  //   display: none;
-  // }
+  .main-page {
+    flex-direction: column;
+    &_column {
+      width: 100%;
+    }
+  }
 }

@@ -3,7 +3,7 @@
     justify-content: center;
   }
   
-  .catalog {
+.catalog {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,9 +15,9 @@
     color: $main-color-violet;
     background: none;
     font-size: larger;
-  }
+}
   
-  .catalog:hover{
+.catalog:hover{
     color: white;
     background-color: $main-color-violet;
     cursor: pointer;
@@ -29,5 +29,16 @@
       'wght' 300,
       'GRAD' 0,
       'opsz' 48
+  }
+}
+
+  @media (max-width: 600px) {
+    .catalog-container {
+      padding-top: 30px;
+    }
+    .catalog {
+      width: 137px;
+      height: 137px;
+      font-size: 16px;
     }
   }

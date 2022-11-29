@@ -1,6 +1,6 @@
 .main-page {
     display: flex;
-    padding-top: 120px;
+    // padding-top: 120px;
     &_column {
       width: 50%;
     }
@@ -30,4 +30,20 @@
         color: black; 
         font-weight: bold;
     }
+}
+
+@media (max-width: 600px) {
+  .left-main-img, .right-main-img {
+    display: none;
+  }
+  .main-page-text {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    & .greeting, .txt-cokteil, .txt-cokteil::first-letter {
+      font-size: 30px;
+      color: white;
+      padding-bottom: 0;
+    }
+  }
 }

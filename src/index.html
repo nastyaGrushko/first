@@ -53,24 +53,24 @@
         <label for = "status" class="menu-item closer">
           <img src = "./img/Надпись неон.jpg">
         </label>
-        @@include("./partials/menu/_menu.html",{"menu-item":"Женщинам"})
-        @@include("./partials/menu/_menu.html",{"menu-item":"Мужчинам"})
-        @@include("./partials/menu/_menu.html",{"menu-item":"Детям"})
-        @@include("./partials/menu/_menu.html",{"menu-item":"Обувь"})
-        @@include("./partials/menu/_menu.html",{"menu-item":"Игрушки"})
-        @@include("./partials/menu/_menu.html",{"menu-item":"Аксессуары"})
-        @@include("./partials/menu/_menu.html",{"menu-item":"Большие размеры"})
-        @@include("./partials/menu/_menu.html",{"menu-item":"Дополнительно"})
-        @@include("./partials/menu/_menu.html",{"menu-item":"Акции"})
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Женщинам","class":"menu-item"})
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Мужчинам","class":"menu-item"})
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Детям","class":"menu-item"})
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Обувь","class":"menu-item"})
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Игрушки","class":"menu-item"})
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Аксессуары","class":"menu-item"})
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Большие размеры","class":"menu-item"})
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Дополнительно","class":"menu-item"})
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"menu-item"})
       </div>
     <div class = "main-container">
       <div class = "main-page">
         <div class = "main-page_column left-col">
           <img class = "left-main-img" src = "./img/ГлавнаяСтраницаСлева.jpg" width="278" height="242">
           <div class = "main-page-text">
-            <div class = "two-part greeting">
+            <div class = "greeting">
               @@include("./partials/main-page/_main-page.html",{"txt":"Добро пожаловать ","class":"welcome"})
-              @@include("./partials/main-page/_main-page.html",{"txt":"в Cokteil","class":"cokteil"})
+              @@include("./partials/main-page/_main-page.html",{"txt":"в Cocteil","class":"cokteil"})
             </div>
             @@include("./partials/main-page/_main-page.html",{"txt": "Экономим ваше время!","class":"profitably"})
             @@include("./partials/main-page/_main-page.html",{"txt":"Предлагаем лучшие цены!","class":"best-sales"})
@@ -102,8 +102,8 @@
       </div>
       <div class = "sale_container">
         <div class = "sale_header">
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Успей купить!","class1":"sale_txt", "class2": "hurry_buy"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class1":"sale_txt", "class2": "purple"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Успей купить!","class":"sale_txt hurry_buy"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"sale_txt purple"})
         </div>
         <div class="sale_slick_box">
           <div>your content</div>
