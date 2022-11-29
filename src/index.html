@@ -91,14 +91,16 @@
       </div>
       <div class = "why-we_container">
         <div class="why-we_header">Почему выбирают нас?</div>
-        <div class="why-we_items">
-          @@include("./partials/main-page/sale/_sale.html",{"class":"why-we_item item1","text": "Скидка постоянным клиентам от 5%"})
-          @@include("./partials/main-page/sale/_sale.html",{"class":"why-we_item item2","text": "Предлагаем самые выгодные цены"})
-          @@include("./partials/main-page/sale/_sale.html",{"class":"why-we_item item3","text": "Наши покупатели всегда остаются довольны"})
-          @@include("./partials/main-page/sale/_sale.html",{"class":"why-we_item item4","text": "Широкий ассортимент для всей семьи"})
-          @@include("./partials/main-page/sale/_sale.html",{"class":"why-we_item item5","text": "Возможность доставки в любой город Беларуси"})
-          @@include("./partials/main-page/sale/_sale.html",{"class":"why-we_item item6","text": "Пункты выдачи заказов рядом с домом"})
-        </div>
+          <div class="items row1">
+            @@include("./partials/main-page/sale/_sale.html",{"class":"row_item","text": "Скидка постоянным клиентам от 5%"})
+            @@include("./partials/main-page/sale/_sale.html",{"class":"row_item","text": "Предлагаем самые выгодные цены"})
+            @@include("./partials/main-page/sale/_sale.html",{"class":"row_item","text": "Наши покупатели всегда остаются довольны"})
+            @@include("./partials/main-page/sale/_sale.html",{"class":"row_item","text": "Широкий ассортимент товаров для всей семьи"})
+          </div>
+          <div class="items row2">
+            @@include("./partials/main-page/sale/_sale.html",{"class":"row_item","text": "Возможность доставки в любой город Беларуси"})
+            @@include("./partials/main-page/sale/_sale.html",{"class":"row_item","text": "Пункты выдачи заказов рядом с домом"})
+          </div>
       </div>
       <div class = "sale_container">
         <div class = "sale_header">
@@ -110,6 +112,19 @@
           <div>your content</div>
           <div>your content</div>
         </div>
+      </div>
+      <div class = "faq_container">
+        <div class = "faq_header">
+          @@include("./partials/main-page/sale/_sale.html",{"class":"faq black-txt","text": "Часто задаваемые вопросы"})
+          @@include("./partials/main-page/sale/_sale.html",{"class":"faq purple-txt","text": "FAQ"})
+        </div>
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Как сделать заказ","text":"meow"})
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Способы оплаты","text":"meow"})
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Доставка","text":"meow"})
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Срок доставки","text":"meow"})
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Как сделать обмен","text":"meow"})
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Как сделать возврат","text":"meow"})
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Куда и когда вернутся деньги за возвращённый товар?","text":"meow"})
       </div>
     </div>
   </body>

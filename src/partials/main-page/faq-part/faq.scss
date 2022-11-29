@@ -1,0 +1,54 @@
+.faq {
+    &_container {
+        padding-top: 150px;
+    }
+
+    &_header {
+        font-size: 40px;
+        font-weight: bold;
+        width: 50%;
+        .purple-txt {
+            font-weight: 100;
+            color: $main-color-violet;
+            font-family: Bad Script;
+            margin-top: -20px;
+            text-align: end;
+        }
+    }
+}
+
+.accordion {
+    background-color: #fffdf5;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border: none;
+    border-bottom: gray 1px solid;
+    outline: none;
+    transition: 0.4s;
+ }
+
+.panel {
+    padding: 0 18px;
+    background-color: #fffdf5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '+'; 
+    font-size: 20px;
+    color: $main-color-violet;
+    float: right;
+    margin-left: 5px;
+    border-bottom: none;
+}
+
+.active:after {
+    content: "х";
+}
