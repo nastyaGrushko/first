@@ -15,6 +15,9 @@ for (i = 0; i < acc.length; i++) {
 
 $('.sale_slick_box').slick({
   lazyLoad: 'ondemand',
-  slidesToShow: 3,
-  slidesToScroll: 1
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  prevArrow: $('.arrow-prev'),
+  nextArrow: $('.arrow-next')
+  // autoplay: true
 });

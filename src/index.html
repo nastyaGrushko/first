@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Stint+Ultra+Expanded&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
@@ -114,13 +115,22 @@
           @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"sale_txt purple"})
         </div>
         <div class="sale_slick_box">
-          <div>your content</div>
-          <div>your content</div>
-          <div>your content</div>
-          <div>your content</div>
-          <div>your content</div>
-          <div>your content</div>
-          <div>your content</div>
+          <div>
+            @@include("./partials/main-page/sale/_slider-item.html",{"left-icon": "favorite","right-icon":"add_shopping_cart"})
+          </div>
+          <div>@@include("./partials/main-page/sale/_slider-item.html",{"left-icon": "favorite","right-icon":"add_shopping_cart"})</div>
+          <div>@@include("./partials/main-page/sale/_slider-item.html",{"left-icon": "favorite","right-icon":"add_shopping_cart"})</div>
+          <div>@@include("./partials/main-page/sale/_slider-item.html",{"left-icon": "favorite","right-icon":"add_shopping_cart"})</div>
+          <div>@@include("./partials/main-page/sale/_slider-item.html",{"left-icon": "favorite","right-icon":"add_shopping_cart"})</div>
+          <div>@@include("./partials/main-page/sale/_slider-item.html",{"left-icon": "favorite","right-icon":"add_shopping_cart"})</div>
+        </div>
+        <div class = "arrows">
+          <div class="arrow-prev">
+            <i class="fa fa-thin fa-arrow-left-long"></i>
+          </div>
+          <div class="arrow-next">
+            <i class="fa fa-thin fa-arrow-right-long"></i>
+          </div>
         </div>
       </div>
       <div class = "faq_container">
@@ -155,6 +165,10 @@
           @@include("./partials/main-page/partnership/_row-w-icons.html",{"class":"row-icon item3","icon":"diversity_3","text":"Поддержка и обучение"})
           @@include("./partials/main-page/partnership/_row-w-icons.html",{"class":"row-icon item4","icon":"savings","text":"Бонусы за новых клиентов"})
         </div>
+      </div>
+      <div class = "contacts_container">
+        <div class="contacts"></div>
+        <div class="contacts_circles"></div>
       </div>
     </div>
   </body>

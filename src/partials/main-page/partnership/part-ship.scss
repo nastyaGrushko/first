@@ -14,6 +14,18 @@
             font-size: 20px;
             font-weight: bold;
         }
+        .material-symbols-outlined {
+            color: $main-color-violet;
+            font-size: 35px;
+        }       
+        .material-symbols-outlined:hover {
+            cursor: auto;
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 300,
+            'GRAD' 0,
+            'opsz' 48
+        }
     }
 }
 
@@ -42,18 +54,6 @@
     }
 }
 
-.material-symbols-outlined {
-    color: $main-color-violet;
-}
-
-.material-symbols-outlined:hover {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 300,
-    'GRAD' 0,
-    'opsz' 48
-}
-
 @media (max-width: 600px) {
     .partnership {
         &_container {
@@ -75,6 +75,7 @@
                 font-size: 20px;
                 font-weight: bold;
             }
+            
         }
     }
 
