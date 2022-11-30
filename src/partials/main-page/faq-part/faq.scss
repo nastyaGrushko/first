@@ -52,3 +52,24 @@
 .active:after {
     content: "х";
 }
+
+@media (max-width: 600px) {
+    .faq {
+        &_container {
+            padding-top: 60px;
+        }
+    
+        &_header {
+            font-size: 25px;
+            font-weight: bold;
+            width: 50%;
+            .purple-txt {
+                font-weight: 100;
+                color: $main-color-violet;
+                font-family: Bad Script;
+                // margin-top: -20px;
+                text-align: end;
+            }
+        }
+    }  
+}

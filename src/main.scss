@@ -16,9 +16,26 @@ body * {
 }
 
 .main-container {
-background-color: $background-color;
-padding: 0 135px;
+  background-color: $background-color;
+  padding: 0 135px;
 }
+
+.circle {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  // fill: transparent;
+  background-color: transparent;
+  border: $main-color-violet 1px solid;
+  position: absolute;
+  
+}
+
+.one {
+  right: -210px;
+  top: 880px;
+}
+
 
 .material-symbols-outlined {
   font-variation-settings:

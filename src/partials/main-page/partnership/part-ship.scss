@@ -52,4 +52,62 @@
     'wght' 300,
     'GRAD' 0,
     'opsz' 48
-  }
+}
+
+@media (max-width: 600px) {
+    .partnership {
+        &_container {
+            padding-top: 60px;
+            width: 100%;
+            text-align: center;
+            .part-header_text1 {
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .part-header_text2 {
+                padding-top: 30px;
+                font-size: 12px;
+            }
+            .text-between {
+                padding-top: 60px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .partnership_row1 {
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+
+    .row-item {
+        width: 25%;
+        text-align: start;
+    }
+    .str1 {
+        font-size: 12px;
+        font-weight: bold;
+        color: $background-color;
+        // padding: 0 55px 20px;
+    }
+
+    .str2{
+        display: none;
+    }
+ }
+
+ .partnership_row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    gap: 40px;
+    .row-icon {
+        width: 100%;
+    }
+}
+
+}
