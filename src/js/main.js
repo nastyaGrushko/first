@@ -12,3 +12,9 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+$('.sale_slick_box').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 3,
+  slidesToScroll: 1
+});
