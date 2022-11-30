@@ -1,0 +1,66 @@
+.contacts_container {
+    padding-top: 150px;
+    height: 555px;
+    .contacts {
+        height: 410px;
+        width: 970px;
+        background-color: $main-color-violet;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .contacts_form {
+            height: 330px;
+            width: 715px;
+            background-color: $background-color;
+            padding: 35px 50px;
+        }
+        .header {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .contact-fields {
+            display: flex;
+            flex-direction: column;
+            .field_box {
+                padding-top: 25px;
+            }
+        }
+        .name-field, .phone-field, .email-field {
+            width: 40%;
+            border: none;
+            border-bottom: $customer-page-line-color 1px solid;
+            background-color: $background-color;
+        }
+    }
+
+    .button{
+        padding-top: 45px;
+    }
+    .more-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: $main-color-violet 1px solid;
+        width: 140px;
+        height: 35px;
+        color: white;
+        background-color: $main-color-violet;
+        font-size: 15px;
+    }
+
+    .more-button:hover{
+        color: $main-color-violet;
+        background: none;
+        cursor: pointer;
+        & .arrow {
+          background: none;
+          color: $main-color-violet;
+          font-variation-settings:
+          'FILL' 0, 
+          'wght' 300,
+          'GRAD' 0,
+          'opsz' 48
+      }
+    }
+}
