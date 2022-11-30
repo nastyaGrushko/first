@@ -120,3 +120,9 @@
       }
     }
 }
+
+@media (max-width: 600px) {
+    .sale_container {
+        display: none;
+    }
+}

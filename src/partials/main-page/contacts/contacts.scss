@@ -64,3 +64,14 @@
       }
     }
 }
+@media (max-width: 600px) {
+    .contacts_container {
+        display: none;
+    }
+    .contacts{
+        width: 100%;
+        .contacts_form {
+            padding: 35px 10px;
+        }
+    }
+}
