@@ -12,7 +12,7 @@
 @import "./partials/footer/footer.scss";
 
 body * {
-  outline: 1px solid lightgrey;
+  // outline: 1px solid lightgrey;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -39,8 +39,6 @@ body * {
     border-radius: 50%;
     background-color: transparent;
     border: $main-color-violet 1px solid;
-    // right: -180px;
-    // top: 880px;
   }
   
 }
@@ -57,9 +55,13 @@ body * {
   .main-container {
     width: 100%;
     padding: 0;
-    // background-image: url(/img/ГлавнаяСтраницаСлева.jpg);
-    // background-color: gray;
     text-align: center;
+  }
+
+  .main-page_catalog{
+    height: 100vh;
+    background-image: url(/img/мобилкаФон.jpg);
+    background-size: auto 100%;
   }
   .search-icon {
     position: fixed;

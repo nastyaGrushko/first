@@ -70,30 +70,32 @@
         @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"menu-item"})
       </div>
     <div class = "main-container">
-      <div class = "main-page">
-        <div class = "main-page_column left-col">
-          <img class = "left-main-img" src = "./img/ГлавнаяСтраницаСлева.jpg" width="278" height="242">
-          <div class = "main-page-text">
-            <div class = "greeting">
-              @@include("./partials/main-page/_main-page.html",{"txt":"Добро пожаловать ","class":"welcome"})
-              @@include("./partials/main-page/_main-page.html",{"txt":"в Cocteil","class":"cokteil"})
+      <div class = "main-page_catalog">
+        <div class = "main-page">
+          <div class = "main-page_column left-col">
+            <img class = "left-main-img" src = "./img/ГлавнаяСтраницаСлева.jpg" width="278" height="242">
+            <div class = "main-page-text">
+              <div class = "greeting">
+                @@include("./partials/main-page/_main-page.html",{"txt":"Добро пожаловать ","class":"welcome"})
+                @@include("./partials/main-page/_main-page.html",{"txt":"в Cocteil","class":"cokteil"})
+              </div>
+              @@include("./partials/main-page/_main-page.html",{"txt": "Экономим ваше время!","class":"profitably"})
+              @@include("./partials/main-page/_main-page.html",{"txt":"Предлагаем лучшие цены!","class":"best-sales"})
+              @@include("./partials/main-page/_main-page.html",{"txt":"Доставляем в кратчайшие сроки!","class":"asap"})
             </div>
-            @@include("./partials/main-page/_main-page.html",{"txt": "Экономим ваше время!","class":"profitably"})
-            @@include("./partials/main-page/_main-page.html",{"txt":"Предлагаем лучшие цены!","class":"best-sales"})
-            @@include("./partials/main-page/_main-page.html",{"txt":"Доставляем в кратчайшие сроки!","class":"asap"})
+          </div>
+          <div class="main-page_column right-col">
+            <img class="right-main-img" src = "./img/ГлавнаяСтраницаСправа.jpg" width="476" height="416">
           </div>
         </div>
-        <div class="main-page_column right-col">
-          <img class="right-main-img" src = "./img/ГлавнаяСтраницаСправа.jpg" width="476" height="416">
+        <div class = "catalog-container">
+          <button class = "catalog">
+            Каталог 
+            <span class="material-symbols-outlined arrow">
+              arrow_right_alt
+            </span>
+          </button>
         </div>
-      </div>
-      <div class = "catalog-container">
-        <button class = "catalog">
-          Каталог 
-          <span class="material-symbols-outlined arrow">
-            arrow_right_alt
-          </span>
-        </button>
       </div>
       <div class = "why-we_container">
         <div class = "circle_container">
