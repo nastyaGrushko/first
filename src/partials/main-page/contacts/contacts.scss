@@ -1,6 +1,5 @@
 .contacts_container {
     padding-top: 150px;
-    height: 555px;
     .contacts {
         height: 410px;
         width: 970px;
@@ -44,13 +43,17 @@
         border: $main-color-violet 1px solid;
         width: 140px;
         height: 35px;
-        color: white;
+        color: $background-color;
         background-color: $main-color-violet;
         font-size: 15px;
+        & .arrow {
+            color: $background-color;
+        }
     }
 
     .more-button:hover{
         color: $main-color-violet;
+        font-weight: bold;
         background: none;
         cursor: pointer;
         & .arrow {
@@ -66,12 +69,29 @@
 }
 @media (max-width: 600px) {
     .contacts_container {
-        display: none;
-    }
-    .contacts{
-        width: 100%;
-        .contacts_form {
+        padding-top: 60px;
+        .contacts{
+            width: 100%;
             padding: 35px 10px;
-        }
+            .header {
+                font-size: 12px;
+                font-weight: bold;
+            }
+            .contacts_form {
+                padding: 10%;
+            }
+            .button {
+                display: flex;
+                justify-content: center;
+                .more-button {
+                    font-size: 14px;
+                }
+            }
+            .name-field, .phone-field, .email-field {
+                width: 228px;
+                text-align: center;
+            }
     }
+
+ }
 }
