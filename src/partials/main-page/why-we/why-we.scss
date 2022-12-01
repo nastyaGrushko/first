@@ -1,3 +1,7 @@
+.why-we_slider_container {
+    display: none;
+}
+
 .why-we {
     &_container {
         padding-top: 150px;
@@ -30,11 +34,33 @@
 }
 
 @media (max-width:600px) {
-    .why-we_inline {
-        display: none;
+    .why-we{
+        &_inline {
+            display: none;
+        }
+        &_slider {
+            display: block;
+            padding-top: 30px;
+        }
+        &_header {
+            font-size: 25px;
+        }
     }
 
-    .why-we_header {
-        font-size: 25px;
+    .why-item-box {
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
+
+    .why-slider_item  {
+        color: $background-color;
+        background-color: $main-color-violet;
+        border-radius: 10px;
+        height: 75px;
+        // width: 85%;
+        display: flex;
+        align-items: center;
+    } 
 }

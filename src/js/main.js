@@ -18,8 +18,14 @@ $('.sale_slick_box').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
   prevArrow: $('.arrow-prev'),
-  nextArrow: $('.arrow-next')
-  // autoplay: true
+  nextArrow: $('.arrow-next'),
+  responsive: [{
+    breakpoint: 1000,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+  }]
 });
 
 $('.why-we_slider').slick({
