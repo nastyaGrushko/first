@@ -12,7 +12,7 @@
 @import "./partials/footer/footer.scss";
 
 body * {
-  // outline: 1px solid lightgrey;
+  outline: 1px solid lightgrey;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -22,22 +22,28 @@ body * {
   padding: 0 135px;
 }
 
-.circle {
-  width: 380px;
+
+.circle_container {
+  max-width: 190px;
   height: 380px;
-  border-radius: 50%;
   // fill: transparent;
   background-color: transparent;
-  border: $main-color-violet 1px solid;
   position: absolute;
+  right: -50px;
+  top: 950px;
+  overflow: hidden;
+  margin-right: 58px;
+  .one {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: $main-color-violet 1px solid;
+    // right: -180px;
+    // top: 880px;
+  }
+  
 }
-
-.one {
-  // right: -210px;
-  left: -150px;
-  top: 880px;
-}
-
 
 .material-symbols-outlined {
   font-variation-settings:
