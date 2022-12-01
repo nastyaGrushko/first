@@ -86,27 +86,28 @@
         width: 100%;
         gap: 30px;
 
-    .row-item {
-        width: 40%;
-        height: 75px;
-        text-align: start;
-        background-color: $main-color-violet;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .str1 {
-        font-size: 12px;
-        font-weight: bold;
-        color: $background-color;
-        padding: 0;
+        .row-item {
+            width: 40%;
+            height: 75px;
+            text-align: start;
+            background-color: $main-color-violet;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .str1 {
+            font-size: 12px;
+            font-weight: bold;
+            color: $background-color;
+            padding: 0;
+            text-align: center;
 
-    }
+        }
 
-    .str2{
-        display: none;
-    }
+        .str2{
+            display: none;
+        }
  }
 
  .partnership_row2 {

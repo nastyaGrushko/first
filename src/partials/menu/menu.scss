@@ -24,3 +24,11 @@
   .menu-input ~ .menu-container {
    display: none;
 }
+
+@media (max-width:600px) {
+  .menu-input:checked ~ .menu-container {
+    width: 100%;
+    left: 0px;
+    z-index: 1;
+  }
+}

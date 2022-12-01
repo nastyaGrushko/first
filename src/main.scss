@@ -12,7 +12,7 @@
 @import "./partials/footer/footer.scss";
 
 body * {
-  // outline: 1px solid lightgrey;
+  outline: 1px solid lightgrey;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -63,26 +63,7 @@ body * {
     background-image: url(/img/мобилкаФон.jpg);
     background-size: auto 100%;
   }
-  .search-icon {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    // width: 351.25px;
-    // height: 4%;
-    background-color: white;
-    border-radius: 10px;
-  }
-  header {
-    width: 100%;
-    height: fit-content;
-    position: fixed;
-    bottom: 0;
-    background-color: $main-color-violet;
-    .material-symbols-outlined {
-      color: $background-color;
-    }
-  }
+ 
   .main-page {
     flex-direction: column;
     &_column {

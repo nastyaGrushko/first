@@ -21,3 +21,11 @@ $('.sale_slick_box').slick({
   nextArrow: $('.arrow-next')
   // autoplay: true
 });
+
+$('.why-we_slider').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  // prevArrow: $('.arrow-prev'),
+  // nextArrow: $('.arrow-next')
+});
