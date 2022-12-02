@@ -1,6 +1,6 @@
-// .why-we_slider {
-//     display: none;
-// }
+.why-we_slider, .chevron-left, .chevron-right {
+    display: none;
+}
 
 .why-we {
     &_container {
@@ -38,10 +38,9 @@
         &_inline {
             display: none;
         }
-        // &_slider {
-        //     // display: block;
-        //     // padding: 50px 30px 0;
-        // }
+        &_slider {
+            display: block;
+        }
         &_container {
             display: flex;
             padding: 50px 20px 0;
