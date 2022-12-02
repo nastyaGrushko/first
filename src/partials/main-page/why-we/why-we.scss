@@ -38,12 +38,17 @@
         &_inline {
             display: none;
         }
-        &_slider {
-            display: block;
-            padding: 30px 30px 0;
-        }
+        // &_slider {
+        //     // display: block;
+        //     // padding: 50px 30px 0;
+        // }
         &_container {
-            padding: 50px 0px 0;
+            display: flex;
+            padding: 50px 20px 0;
+            width: 100%;
+            .why-we_box {
+                width: 100%;
+            }
         }
         &_header {
             font-size: 25px;
@@ -64,4 +69,10 @@
         display: flex;
         align-items: center;
     } 
+
+    .chevron-left, .chevron-right {
+        color: $main-color-violet;
+        display: flex;
+        align-items: center;
+    }
 }
