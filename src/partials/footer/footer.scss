@@ -1,0 +1,25 @@
+footer {
+    background-color: $main-color-violet;
+    color: $background-color;
+    padding: 80px 10%;
+    display: flex;
+    // gap: 95px;
+
+    .footer-header {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .info_items, .cabinet_items, .contact-info_items, .sns_items {
+        padding-top: 20px;
+    }
+
+    .information, .my-cabinet, .contacts-info, .social-networks {
+        width: 25%;
+    }
+
+    .sns_items {
+        font-size: 25px;
+    }
+}
+

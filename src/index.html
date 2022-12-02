@@ -179,8 +179,9 @@
           @@include("./partials/main-page/partnership/_row-w-icons.html",{"class":"row-icon item3","icon":"diversity_3","text":"Поддержка и обучение"})
           @@include("./partials/main-page/partnership/_row-w-icons.html",{"class":"row-icon item4","icon":"savings","text":"Бонусы за новых клиентов"})
         </div>
-      </div>
-      <div class = "contacts_container">
+      </div>  
+    </div>
+    <div class = "contacts_container">
         <div class="contacts_circles">
           <!-- <div class="circle"></div>
           <div class="circle"></div> -->
@@ -211,15 +212,50 @@
             </div>
           </div>
         </div>
-      </div>
     </div>
     <footer>
       <div class="information">
-
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Информация","class":"footer-header info"})
+        <div class = "info_items">
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Главная","class":"footer-info-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"footer-info-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Каталог","class":"footer-info-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Возврат","class":"footer-info-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Доставка","class":"footer-info-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Партнёрам","class":"footer-info-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Способы оплаты","class":"footer-info-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Как сделать заказ?","class":"footer-info-item"})
+        </div> 
       </div>
-      <div class="div"></div>
-      <div class="div"></div>
-      <div class="div"></div>
+      <div class="my-cabinet">
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Мой кабинет","class":"footer-header cabinet"})
+        <div class = "cabinet_items">
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои заказы","class":"footer-cabinet-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои адреса","class":"footer-cabinet-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои скидки","class":"footer-cabinet-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Моя информация","class":"footer-cabinet-item"})
+        </div>
+      </div>
+      <div class="contacts-info">
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Контактная информация","class":"footer-header contact-info"})
+        <div class = "contact-info_items">
+          @@include("./partials/main-page/sale/_sale.html",{"text": "ИП Вишневский Иван Сергеевич государственная регистрация №690867884 от 31.07.2020","class":"footer-contact-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Логойским горисполкомом","class":"footer-contact-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Защита прав потребителей +375259990755","class":"footer-contact-item"})
+        </div>
+      </div>
+      <div class="social-networks">
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Соц. сети","class":"footer-header sns"})
+        <div class = "sns_items">
+          <div class = "sns-icons">
+            <i class="fa-sharp fa-solid fa-paper-plane"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+            <i class="fa-brands fa-viber"></i>
+          </div>
+          
+        </div>
+      </div>
     </footer>
   </body>
 </html>
