@@ -21,7 +21,7 @@
     color: $background-color;
     background-color: $main-color-violet;
     cursor: pointer;
-    box-shadow: 0px 0px 30px $main-color-violet;
+    box-shadow: $circles-button-box-shadow;
     & .arrow {
       background: none;
       color: $background-color;
