@@ -1,4 +1,5 @@
 .contacts_container {
+    position: relative;
     padding: 150px 0;
     background-color: $background-color;
     .contacts {
@@ -67,8 +68,28 @@
           'opsz' 48
       }
     }
+
+    .contacts_circles {
+        max-width: 190px;
+        height: 380px;
+        position: absolute;
+        overflow: hidden;
+        margin-right: 58px;
+        bottom: 0;
+        right: -58px;
+        .one {
+            width: 380px;
+            height: 380px;
+            border-radius: 50%;
+            border: $main-color-violet 1px solid;
+        }
+          
+    }
 }
 @media (max-width: 600px) {
+    .contacts_circles {
+        display: none;
+    }
     .contacts_container {
         padding-top: 60px;
         padding-bottom: 0;
