@@ -22,7 +22,7 @@
 }
 
 .accordion {
-    background-color: #fffdf5;
+    background-color: $background-color;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -38,7 +38,7 @@
 
 .panel {
     padding: 0 18px;
-    background-color: #fffdf5;
+    background-color: $background-color;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;

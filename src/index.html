@@ -222,58 +222,54 @@
         </div>
     </div>
     <footer>
-      <div class = "footer_accordion">
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Информация","text":"info_items"})
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Мой кабинет","text":"meow"})
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Сотрудничество","text":"meow"})
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Контакты","text":"meow"})
-      </div>
-      <div class="information">
-        @@include("./partials/main-page/sale/_sale.html",{"text": "Информация","class":"footer-header info accordion"})
-        <div class = "info_items panel">
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Главная","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Каталог","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Возврат","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Доставка","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Партнёрам","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Способы оплаты","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Как сделать заказ?","class":"block-item"})
-        </div>
-      </div>
-      <div class="my-cabinet">
-        @@include("./partials/main-page/sale/_sale.html",{"text": "Мой кабинет","class":"footer-header cabinet"})
-        <div class = "cabinet_items">
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои заказы","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои адреса","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои скидки","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Моя информация","class":"block-item"})
-        </div>
-      </div>
-      <div class="contacts-info">
-        @@include("./partials/main-page/sale/_sale.html",{"text": "Контактная информация","class":"footer-header contact-info"})
-        <div class = "contact-info_items">
-          @@include("./partials/main-page/sale/_sale.html",{"text": "ИП Вишневский Иван Сергеевич государственная регистрация №690867884 от 31.07.2020","class":"block-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Логойским горисполкомом","class":"contact-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Защита прав потребителей +375259990755","class":"contact-item"})
-        </div>
-      </div>
-      <div class="social-networks">
-        @@include("./partials/main-page/sale/_sale.html",{"text": "Соц. сети","class":"footer-header sns"})
-        <div class = "sns_items">
-          <div class = "sns-icons">
-            <i class="fa-sharp fa-solid fa-paper-plane"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-sharp fa-solid fa-envelope"></i>
-            <i class="fa-brands fa-viber"></i>
+      <div class = "footer_box">
+        <div class="information">
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Информация","class":"footer-header info"})
+          <div class = "info_items">
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Главная","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Каталог","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Возврат","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Доставка","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Партнёрам","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Способы оплаты","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Как сделать заказ?","class":"block-item"})
           </div>
-          <div class ="row">
-            <i class="fa fa-thin fa-phone-volume"></i>
-            @@include("./partials/main-page/sale/_sale.html",{"text": "+375259990755","class":"row-text"})
+        </div>
+        <div class="my-cabinet">
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Мой кабинет","class":"footer-header cabinet"})
+          <div class = "cabinet_items">
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Мои заказы","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Мои адреса","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Мои скидки","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Моя информация","class":"block-item"})
           </div>
-          <div class ="row">
-            <i class="fa fa-thin fa-clock"></i>
-            @@include("./partials/main-page/sale/_sale.html",{"text": "круглосуточно, без выходных","class":"row-text"})
+        </div>
+        <div class="contacts-info">
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Контактная информация","class":"footer-header contact-info"})
+          <div class = "contact-info_items">
+            @@include("./partials/main-page/sale/_sale.html",{"text": "ИП Вишневский Иван Сергеевич государственная регистрация №690867884 от 31.07.2020","class":"block-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Логойским горисполкомом","class":"contact-item"})
+            @@include("./partials/main-page/sale/_sale.html",{"text": "Защита прав потребителей +375259990755","class":"contact-item"})
+          </div>
+        </div>
+        <div class="social-networks">
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Соц. сети","class":"footer-header sns"})
+          <div class = "sns_items">
+            <div class = "sns-icons">
+              <i class="fa-sharp fa-solid fa-paper-plane"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-sharp fa-solid fa-envelope"></i>
+              <i class="fa-brands fa-viber"></i>
+            </div>
+            <div class ="row">
+              <i class="fa fa-thin fa-phone-volume"></i>
+              @@include("./partials/main-page/sale/_sale.html",{"text": "+375259990755","class":"row-text"})
+            </div>
+            <div class ="row">
+              <i class="fa fa-thin fa-clock"></i>
+              @@include("./partials/main-page/sale/_sale.html",{"text": "круглосуточно, без выходных","class":"row-text"})
+            </div>
           </div>
         </div>
       </div>
