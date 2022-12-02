@@ -21,12 +21,11 @@
         .slider_item {
             width: 40%;
         }
-}
+    }
     &_header {
         font-size: 40px;
         font-weight: bold;
     }
-
 }
 
 .row_item {
@@ -43,10 +42,11 @@
         }
         &_container {
             display: flex;
-            padding: 50px 20px 0;
+            padding-top: 50px;
+            padding-right: 0px;
             width: 100%;
             .why-we_box {
-                width: 100%;
+                width: 95%;
             }
         }
         &_header {
