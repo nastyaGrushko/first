@@ -4,6 +4,7 @@
 
 .why-we {
     &_container {
+        position: relative;
         padding-top: 150px;
         padding-right: 140px;
         .items_row1  {
@@ -29,53 +30,65 @@
         font-size: 40px;
         font-weight: bold;
     }
+    &_inline {
+        .circle {
+            position: relative;
+            color: $main-color-violet;
+            &::after {
+                content: "";
+                position: absolute;
+                right: 0;
+                border-radius: 50%;
+                background-color: $main-color-violet;
+                box-shadow: $circles-button-box-shadow;
+            }
+            &.big::after {
+                width: 50px;
+                height: 50px;
+            }
+            &.small::after {
+                width: 30px;
+                height: 30px;
+            }
+            &.top1::after {
+                top: 0;
+                transform: translate(100%, -70%);
+            }
+            &.top2::after {
+                top: 0;
+                transform: translate(100%, -30%);
+            }
+            &.bottom1::after {
+                bottom: 0;
+                transform: translate(-100%, 50%);
+            }
+            &.bottom2::after {
+                bottom: 0;
+                transform: translate(70%, 70%);
+            }
+        }
+    }
+    &_box {
+        .circle_container {
+            max-width: 190px;
+            height: 380px;
+            // fill: transparent;
+            // background-color: transparent;
+            position: absolute;
+            overflow: hidden;
+            margin-right: 58px;
+            right: -208px;
+            top: 0px;
+            .one {
+              width: 380px;
+              height: 380px;
+              border-radius: 50%;
+              border: $main-color-violet 1px solid;
+            }
+            
+          }
+    }
 }
-
-.circle {
-    position: relative;
-    color: $main-color-violet;
-
-    &::after {
-        content: "";
-        position: absolute;
-        right: 0;
-        border-radius: 50%;
-        background-color: $main-color-violet;
-        box-shadow: $circles-button-box-shadow;
-    }
-
-    &.big::after {
-        width: 50px;
-        height: 50px;
-    }
-
-    &.small::after {
-        width: 30px;
-        height: 30px;
-    }
-
-    &.top1::after {
-        top: 0;
-        transform: translate(100%, -70%);
-    }
-
-    &.top2::after {
-        top: 0;
-        transform: translate(100%, -30%);
-    }
-
-    &.bottom1::after {
-        bottom: 0;
-        transform: translate(-100%, 50%);
-    }
-
-    &.bottom2::after {
-        bottom: 0;
-        transform: translate(70%, 70%);
-    }
-}
-
-
 
 @media (max-width:600px) {
 

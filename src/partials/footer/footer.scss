@@ -2,8 +2,14 @@ footer {
     background-color: $main-color-violet;
     color: $background-color;
     .footer_box {
-        padding: 80px 8%;
+        padding: 80px 10%;
         display: flex;
+        .without-sns {
+            display: flex;
+        }
+        .block {
+            // width: 25%;
+        }
     }
     
     .block-item {
@@ -19,19 +25,19 @@ footer {
         padding-top: 20px;
     }
 
-    .information, .my-cabinet, .contacts-info, .social-networks {
-        width: auto;
-    }
 
     .sns_items {
         font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
         .sns-icons {
             display: flex;
             gap: 15px;
         }
         .row {
             display: flex;
-            padding-top: 25px;
+            gap: 10px;
             .row-text {
                 font-size: 15px;
             }
@@ -39,34 +45,55 @@ footer {
     }
 }
 
-@media (max-width:600px){
-    .my-cabinet, .contacts-info {
-        display: none;
-    }
-
+@media (max-width: 600px){
     footer {
         height: fit-content;
+        .footer_box {
+            gap: 45px;
+        }
     }
-
-    .information {
-
+    .without-sns {
+        flex-direction: column;
         .footer-header {
             font-size: 13px;
             font-weight: 100;
+            padding: 5px 0;
+            border-bottom: $border-bottom;
         }
+    }
 
+    .information, .my-cabinet, .contacts-info {
         .footer-header:after {
             content: '\f078'; 
             font-family: "Font Awesome 6 Free";
             font-weight: 600;
             font-size: 10px;
             color: $background-color;
-            padding-left: 5px;
+            padding: 0 5px;
+            float: right;
         }     
 
-        .info_items {
-            display: none;
+    }
+    .info_items, .contact-info_items, .cabinet_items{
+        display: none;
+    }
+    .footer-header {
+        &.sns {
+            font-size: 13px;
+            font-weight: bold;
+            padding: 5px 0;
+            border-bottom: $border-bottom
         }
     }
 
+    .sns_items {
+        gap: 20px;
+        .sns-icons {
+            font-size: 15px;
+            &.none {
+                display: none;
+            }
+        }
+    
+    }
 }

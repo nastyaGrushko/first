@@ -1,3 +1,7 @@
+.sale_container {
+    position: relative;
+}
+
 .sale_header {
     font-size: 40px;
     font-weight: bold;
@@ -30,12 +34,12 @@
     justify-content: center;
     border: $main-color-violet 1px solid;
     background-color: $background-color;
-    // position: absolute;
-    // top: 1809px;
+    position: absolute;
+    top: 490px;
 }
 
 .arrow-next {
-    right: 143px;
+    right: 0;
 }
 
 .slider-items_container {

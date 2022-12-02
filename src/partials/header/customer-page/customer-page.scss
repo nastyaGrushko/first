@@ -44,7 +44,7 @@
           font-weight: bold;
           text-align: center;
           background-color: $main-color-violet;
-          box-shadow: 0px 5px 5px $box-shadow-color-one;
+          box-shadow: $circles-button-box-shadow;
           color: white;
           border: none;
         }
@@ -81,6 +81,16 @@
 
 .customer-page_box {
   padding: 10px 23px;
+}
+
+@media (max-width:600px) {
+  .person_container:hover .customer-page_content {
+    display: none;
+  }
+  .person_container:hover .person_button {
+    color: $background-color;
+
+  }
 }
 
 

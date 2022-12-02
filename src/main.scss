@@ -20,30 +20,6 @@ body * {
 .main-container {
   background-color: $background-color;
   padding: 0 10%;
-  .contacts_container {
-    padding: 0;
-  }
-}
-
-
-.circle_container {
-  max-width: 190px;
-  height: 380px;
-  // fill: transparent;
-  background-color: transparent;
-  position: absolute;
-  right: -50px;
-  top: 950px;
-  overflow: hidden;
-  margin-right: 58px;
-  .one {
-    width: 380px;
-    height: 380px;
-    border-radius: 50%;
-    background-color: transparent;
-    border: $main-color-violet 1px solid;
-  }
-  
 }
 
 .material-symbols-outlined {
