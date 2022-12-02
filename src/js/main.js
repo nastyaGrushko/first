@@ -32,6 +32,6 @@ $('.why-we_slider').slick({
   lazyLoad: 'ondemand',
   slidesToShow: 2,
   slidesToScroll: 2,
-  prevArrow: $('.chevron-left'),
-  nextArrow: $('.chevron-right')
+  prevArrow: $('.fa-chevron-left'),
+  nextArrow: $('.fa-chevron-right')
 });
