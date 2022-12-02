@@ -6,9 +6,9 @@ footer {
         display: flex;
         .without-sns {
             display: flex;
-        }
-        .block {
-            // width: 25%;
+            // .block {
+            //     width: 33%;
+            // }
         }
     }
     
@@ -60,6 +60,9 @@ footer {
             padding: 5px 0;
             border-bottom: $border-bottom;
         }
+        // .block {
+        //     width: 100%;
+        // }
     }
 
     .information, .my-cabinet, .contacts-info {
@@ -87,6 +90,7 @@ footer {
     }
 
     .sns_items {
+        padding-top: 0px;
         gap: 20px;
         .sns-icons {
             font-size: 15px;
