@@ -44,4 +44,10 @@
       background-color: $main-color-violet;
       color: $background-color;
     }
+
+    .catalog:hover {
+      box-shadow: none;
+      color: $main-color-violet;
+      background-color: $background-color;
+    }
   }

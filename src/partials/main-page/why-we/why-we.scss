@@ -51,6 +51,7 @@
         }
         &_header {
             font-size: 25px;
+            padding-bottom: 30px;
         }
     }
 
@@ -72,6 +73,7 @@
     .chevron-left, .chevron-right {
         color: $main-color-violet;
         display: flex;
-        align-items: center;
+        align-items: end;
+        margin-bottom: 30px;
     }
 }
