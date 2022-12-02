@@ -1,9 +1,16 @@
+.footer_accordion {
+    display: none;
+}
+
 footer {
     background-color: $main-color-violet;
     color: $background-color;
     padding: 80px 10%;
     display: flex;
-    // gap: 95px;
+    
+    .block-item {
+        padding-bottom: 10px;
+    }
 
     .footer-header {
         font-size: 20px;
@@ -15,11 +22,32 @@ footer {
     }
 
     .information, .my-cabinet, .contacts-info, .social-networks {
-        width: 25%;
+        width: auto;
     }
 
     .sns_items {
         font-size: 25px;
+        .sns-icons {
+            display: flex;
+            gap: 15px;
+        }
+        .row {
+            display: flex;
+            padding-top: 25px;
+            .row-text {
+                font-size: 15px;
+            }
+        }
     }
 }
 
+@media (max-width:600px){
+    .my-cabinet, .contacts-info, .information {
+        display: none;
+    }
+
+    footer {
+        height: fit-content;
+    }
+
+}

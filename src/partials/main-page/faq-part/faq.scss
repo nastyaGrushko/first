@@ -54,7 +54,9 @@
 }
 
 .active:after {
-    content: "х";
+    content: "\e5cd";
+    font-family: 'Material Symbols Outlined';
+    font-weight: 400;
 }
 
 @media (max-width: 600px) {

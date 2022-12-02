@@ -160,13 +160,13 @@
           @@include("./partials/main-page/sale/_sale.html",{"class":"faq purple-txt","text": "FAQ"})
         </div>
         <div class = "accordion_container">
-         @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Как сделать заказ?","text":"meow"})
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Способы оплаты","text":"meow"})
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Доставка","text":"meow"})
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Срок доставки","text":"meow"})
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Как сделать обмен?","text":"meow"})
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Как сделать возврат?","text":"meow"})
-        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Куда и когда вернутся деньги за возвращённый товар?","text":"meow"}) 
+          @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Как сделать заказ?","text":"meow"})
+          @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Способы оплаты","text":"meow"})
+          @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Доставка","text":"meow"})
+          @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Срок доставки","text":"meow"})
+          @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Как сделать обмен?","text":"meow"})
+          @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Как сделать возврат?","text":"meow"})
+          @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Куда и когда вернутся деньги за возвращённый товар?","text":"meow"}) 
         </div>
       </div>
       <div class = "partnership_container">
@@ -222,34 +222,40 @@
         </div>
     </div>
     <footer>
+      <div class = "footer_accordion">
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Информация","text":"info_items"})
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Мой кабинет","text":"meow"})
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Сотрудничество","text":"meow"})
+        @@include("./partials/main-page/faq-part/_faq-accordion.html",{"section":"Контакты","text":"meow"})
+      </div>
       <div class="information">
-        @@include("./partials/main-page/sale/_sale.html",{"text": "Информация","class":"footer-header info"})
-        <div class = "info_items">
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Главная","class":"footer-info-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"footer-info-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Каталог","class":"footer-info-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Возврат","class":"footer-info-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Доставка","class":"footer-info-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Партнёрам","class":"footer-info-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Способы оплаты","class":"footer-info-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Как сделать заказ?","class":"footer-info-item"})
-        </div> 
+        @@include("./partials/main-page/sale/_sale.html",{"text": "Информация","class":"footer-header info accordion"})
+        <div class = "info_items panel">
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Главная","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Каталог","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Возврат","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Доставка","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Партнёрам","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Способы оплаты","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Как сделать заказ?","class":"block-item"})
+        </div>
       </div>
       <div class="my-cabinet">
         @@include("./partials/main-page/sale/_sale.html",{"text": "Мой кабинет","class":"footer-header cabinet"})
         <div class = "cabinet_items">
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои заказы","class":"footer-cabinet-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои адреса","class":"footer-cabinet-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои скидки","class":"footer-cabinet-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Моя информация","class":"footer-cabinet-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои заказы","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои адреса","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Мои скидки","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Моя информация","class":"block-item"})
         </div>
       </div>
       <div class="contacts-info">
         @@include("./partials/main-page/sale/_sale.html",{"text": "Контактная информация","class":"footer-header contact-info"})
         <div class = "contact-info_items">
-          @@include("./partials/main-page/sale/_sale.html",{"text": "ИП Вишневский Иван Сергеевич государственная регистрация №690867884 от 31.07.2020","class":"footer-contact-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Логойским горисполкомом","class":"footer-contact-item"})
-          @@include("./partials/main-page/sale/_sale.html",{"text": "Защита прав потребителей +375259990755","class":"footer-contact-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "ИП Вишневский Иван Сергеевич государственная регистрация №690867884 от 31.07.2020","class":"block-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Логойским горисполкомом","class":"contact-item"})
+          @@include("./partials/main-page/sale/_sale.html",{"text": "Защита прав потребителей +375259990755","class":"contact-item"})
         </div>
       </div>
       <div class="social-networks">
@@ -261,7 +267,14 @@
             <i class="fa-sharp fa-solid fa-envelope"></i>
             <i class="fa-brands fa-viber"></i>
           </div>
-          
+          <div class ="row">
+            <i class="fa fa-thin fa-phone-volume"></i>
+            @@include("./partials/main-page/sale/_sale.html",{"text": "+375259990755","class":"row-text"})
+          </div>
+          <div class ="row">
+            <i class="fa fa-thin fa-clock"></i>
+            @@include("./partials/main-page/sale/_sale.html",{"text": "круглосуточно, без выходных","class":"row-text"})
+          </div>
         </div>
       </div>
     </footer>
