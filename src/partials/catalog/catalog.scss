@@ -49,5 +49,9 @@
       box-shadow: none;
       color: $main-color-violet;
       background-color: $background-color;
+      & .arrow {
+        background: none;
+        color: $main-color-violet; 
+      }
     }
   }

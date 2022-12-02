@@ -47,9 +47,11 @@ footer {
 
 @media (max-width: 600px){
     footer {
-        height: fit-content;
+        height: 250px;
         .footer_box {
-            gap: 45px;
+            padding: 50px 10px;
+            gap: 10vw;
+            // justify-content: space-around;
         }
     }
     .without-sns {
@@ -85,7 +87,6 @@ footer {
             font-size: 13px;
             font-weight: bold;
             padding: 5px 0;
-            border-bottom: $border-bottom
         }
     }
 
