@@ -6,7 +6,7 @@
 //     break
 
 //     case age >= 15 && age < 25:
-//         console.log ('Подросток')
+//         console.log ('Молодежь')
 //     break
 
 //     case age >= 25 && age < 65:
