@@ -1,26 +1,47 @@
-// 1
+//// 1
 // function summFn (...num) {
-//     const arr = [...num]
-//     console.log(arr)
+//     const arr = [...num];
+////   console.log(arr);
 //     const sum = arr.reduce((total, amount) => total + amount);
 //     console.log(sum)
 //   }
 // summFn(14,8,20,210)
 
-//4 
-// const str = prompt ('Введите строку: ', '').split("");
-// console.log (str)
+////2
+// function cylinder (r,h) {
+//   const volume = Math.PI*r*r*h;
+//   const area = (2*Math.PI*r*h)+(2*Math.PI*r);
+//   console.log('Volume: ', volume.toFixed(2), ', ', 'area: ', area.toFixed(2))
+// }
+// cylinder(1,4)
+
+////3
+// function odd (start, finish) {
+//     const arr = [];
+//     for (let i = start; i <= finish; i++) {
+//         if (i % 2 == 1) {
+//             arr.push(i)
+//         }
+//     }
+//     console.log(arr.join(' '))
+// }
+// odd(0,12)
+
+////4 
 // function reverse (str) {
-    // let str2 = [];
-    // for (let i = 0; i < str.lenght; i++) {
-    //     str2 = str.reverse()
-    // }
-    // console.log(str2)
+//     let str2 = [];
+//     for (let i = 0; i < str.length; i++) { 
+//     str2 += str [(str.length - 1) - i]
+//     } 
+//     console.log (str2)
 // }
 // const str = prompt ('Введите строку: ', '');
 // reverse(str)
 
-//10
+////5
+
+
+////10
 // function role (age) {
 //     switch (true) {
 //         case age >= 0 && age < 15:
@@ -51,3 +72,4 @@
 
 // const age = +prompt('Ваш возраст: ','');
 // role(age);
+
