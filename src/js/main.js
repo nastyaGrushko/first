@@ -5,7 +5,6 @@
 //     const sum = arr.reduce((total, amount) => total + amount);
 //     console.log(sum)
 //   }
-  
 // summFn(14,8,20)
 
 //4 
