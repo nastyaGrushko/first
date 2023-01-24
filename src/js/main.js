@@ -1,3 +1,13 @@
+//1
+// function summFn (...num) {
+//     const arr = [...num]
+//     console.log(arr)
+//     const sum = arr.reduce((total, amount) => total + amount);
+//     console.log(sum)
+//   }
+  
+// summFn(14,8,20)
+
 //4 
 // const str = prompt ('Введите строку: ', '').split("");
 // console.log (str)
