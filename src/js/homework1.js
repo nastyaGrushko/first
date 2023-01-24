@@ -1,7 +1,7 @@
 //// 1
 // function summFn (...num) {
-//     const arr = [...num];
-////   console.log(arr);
+//     const arr = [...num]; 
+//     console.log(arr);
 //     const sum = arr.reduce((total, amount) => total + amount);
 //     console.log(sum)
 //   }
@@ -40,6 +40,27 @@
 
 ////5
 
+
+
+////8
+// function backToFront (str, num) {
+//     const part = str.slice(-num); //console.log(part);
+//     const str2 = part.concat(str, part);
+//     console.log(str2);
+// }
+// backToFront('meow-meow-meow-mu', 2);
+
+////9
+// function digitSum (num) {
+//     const arr = num.split(''); 
+//     for (let i = 0; i < arr.length; i++) {
+//         arr[i] = +arr[i]
+//     }
+//     const sum = arr.reduce((total, amount) => total + amount);
+//     console.log(sum)
+// }
+// const num = prompt('Введите число: ', '');
+// digitSum(num);
 
 ////10
 // function role (age) {
