@@ -38,20 +38,23 @@
 // const str = prompt ('Введите строку: ', '');
 // reverse(str)
 
-////5//unfinished
-// function words (str) {
+//5//unfinished
+// function palindromes (str) {
 //     const arr = str.split(' ')
 //     console.log(arr)
 
 //     for (let i = 0; i < arr.length; i++) {
 //         arr[i] = arr[i].split('')
-//         if (arr[i] == arr[i].reverse()) {
-//             arr.splice(arr[i], 1)
-//         }
+//         // if (arr[i] != arr[i].reverse()) {
+//         //     arr.splice(arr[i], 1)
+//         // } else {
+//         //     arr[i] = arr[i].join('')
+//         // }
 //         console.log(arr)
 //     }
 // }
-// words('Meow meow madam Eve')
+// palindromes('Meow meow madam Eve')
+
 
 ////8
 // function backToFront (str, num) {
