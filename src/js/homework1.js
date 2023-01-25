@@ -38,9 +38,20 @@
 // const str = prompt ('Введите строку: ', '');
 // reverse(str)
 
-////5
+////5//unfinished
+// function words (str) {
+//     const arr = str.split(' ')
+//     console.log(arr)
 
-
+//     for (let i = 0; i < arr.length; i++) {
+//         arr[i] = arr[i].split('')
+//         if (arr[i] == arr[i].reverse()) {
+//             arr.splice(arr[i], 1)
+//         }
+//         console.log(arr)
+//     }
+// }
+// words('Meow meow madam Eve')
 
 ////8
 // function backToFront (str, num) {
