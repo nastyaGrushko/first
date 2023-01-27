@@ -37,23 +37,27 @@
 // }
 // const str = prompt ('Введите строку: ', '');
 // reverse(str)
+// function reverse (str) {
+//     const arrRev = str.split('').reverse().join('')
+//     console.log(arrRev)
+// }
+// reverse('meowmeow huhu')
 
-//5//unfinished
+//5//
 // function palindromes (str) {
-//     const arr = str.split(' ')
-//     console.log(arr)
-
-//     for (let i = 0; i < arr.length; i++) {
-//         arr[i] = arr[i].split('')
-//         // if (arr[i] != arr[i].reverse()) {
-//         //     arr.splice(arr[i], 1)
-//         // } else {
-//         //     arr[i] = arr[i].join('')
-//         // }
+//     const arr = str.toLowerCase().split(' ')
+//     const arrRev = str.toLowerCase().split('').reverse().join('').split(' ').reverse()
+//     console.log(arr, arrRev)
+//     for (let i = 0; i <= arr.length; i++) {
+//         if (arr[i] != arrRev[i]) {
+//             arr.splice(i, 1)
+//             arrRev.splice(i, 1)
+//             i--
+//         }
 //         console.log(arr)
 //     }
 // }
-// palindromes('Meow meow madam Eve')
+// palindromes('Meow meow i am madam Eve or Anna')
 
 
 ////8
@@ -76,7 +80,7 @@
 // const num = prompt('Введите число: ', '');
 // digitSum(num);
 
-////10
+//10
 // function role (age) {
 //     switch (true) {
 //         case age >= 0 && age < 15:
