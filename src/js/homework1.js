@@ -49,15 +49,16 @@
 // function palindromes (str) {
 //     const arr = str.toLowerCase().split(' ')
 //     const arrRev = str.toLowerCase().split('').reverse().join('').split(' ').reverse()
-//     console.log(arr, arrRev)
+//     // console.log(arr, arrRev)
 //     for (let i = 0; i <= arr.length; i++) {
 //         if (arr[i] != arrRev[i]) {
 //             arr.splice(i, 1)
 //             arrRev.splice(i, 1)
 //             i--
 //         }
-//         console.log(arr)
+//         // console.log(arr)
 //     }
+//     console.log(arr)
 // }
 // palindromes('Meow meow i am madam Eve or Anna')
 
