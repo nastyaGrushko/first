@@ -3,9 +3,9 @@
 //     const arr = [...num]; 
 //     // console.log(arr);
 //     const sum = arr.reduce((total, amount) => total + amount);
-//     // console.log(sum)
-//     const average = sum/arr.length
-//     console.log(average)
+//     // console.log(sum);
+//     const average = sum/arr.length;
+//     console.log(average);
 //   }
 //   average(14,8,20,210)
 
