@@ -1,11 +1,13 @@
 //// 1
-// function summFn (...num) {
+// function average (...num) {
 //     const arr = [...num]; 
-//     console.log(arr);
+//     // console.log(arr);
 //     const sum = arr.reduce((total, amount) => total + amount);
-//     console.log(sum)
+//     // console.log(sum)
+//     const average = sum/arr.length
+//     console.log(average)
 //   }
-// summFn(14,8,20,210)
+//   average(14,8,20,210)
 
 ////2
 // function cylinder (r,h) {
