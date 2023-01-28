@@ -39,6 +39,7 @@
 // }
 // const str = prompt ('Введите строку: ', '');
 // reverse(str)
+
 // function reverse (str) {
 //     const arrRev = str.split('').reverse().join('')
 //     console.log(arrRev)
