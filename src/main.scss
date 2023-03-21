@@ -2,4 +2,62 @@ body * {
   outline: 1px solid lightgrey;
 }
 
+.header-middle {
+  font-family: 'Lato', sans-serif;
+  height: 85px;
+  display: flex;
+  justify-content: space-around;
+  .logo {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .logo::after {
+    content: '><';
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #17696A;
+  }
+  .sections {
+    display: flex;
+    gap: 40px;
+    .sale {
+      color: red;
+    }
+  }
+}
 
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.header-first  {
+  height: 50px;
+  display: flex;
+  font-size: 14px;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Lato', sans-serif;
+  .phone_number, .country-page, .order-blog {
+    display: flex;
+    width: 33%;
+  }
+
+  .phone_number {
+    justify-content: end;
+  }
+
+  .order-blog {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .country-page {
+    gap: 60px;
+  }
+  .country, .log-in {
+    display: flex;
+    gap: 10px;
+  }
+}
