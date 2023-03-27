@@ -1,5 +1,6 @@
 body * {
   outline: 1px solid lightgrey;
+  // background-color: #4b9697;
 }
 
 .header-middle {
@@ -60,4 +61,23 @@ body * {
     display: flex;
     gap: 10px;
   }
+}
+
+.slick-slider_container {
+  .my-class {
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    
+  }
+  .one-img {
+    background-color: rgb(126, 126, 126);
+    height: 400px;
+  }
+  .two-img {
+    background-color: rgb(111, 174, 174);
+    height: 400px;
+  }
+
+  background-color: #4b9697;
 }
