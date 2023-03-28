@@ -16,7 +16,7 @@ for (i = 0; i < acc.length; i++) {
 $('.sale_slick_box').slick({
   lazyLoad: 'ondemand',
   slidesToShow: 4,
-  slidesToScroll: 1,
+  slidesToScroll: 2,
   prevArrow: $('.arrow-prev'),
   nextArrow: $('.arrow-next'),
   responsive: [{
