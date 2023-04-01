@@ -36,7 +36,8 @@ $('.why-we_slider').slick({
   nextArrow: $('.fa-chevron-right')
 });
 
-// function getCard ({name, imgPath, price, count}) {
+// function getCard ({name, imgPath, price}) {
+//   let parent = document.getElementsByClassName('catalog-item-list');
 //   const card = document.createElement('div');
 //   card.classList.add('card');
 //   const imgContainer = document.createElement('div');
@@ -44,5 +45,27 @@ $('.why-we_slider').slick({
 //   const img = document.createElement('img');
 //   img.src = imgPath;
 //   img.classList.add('card_img');
+//   imgContainer.append(img);
+//   card.appendChild(imgContainer);
+//   const footer = document.createElement('div');
+//   footer.classList.add('card-footer');
+//   const priceEl = document.createElement('div');
+//   priceEl.classList.add('card-price');
+//   priceEl.innerText = price;
+//   const nameEl = document.createElement('div');
+//   nameEl.innerText = name;
+//   nameEl.classList.add('card-name');
+//   footer.append(priceEl, nameEl);
 
+//   card.appendChild(footer);
+//   return card;
 // }
+
+// const cardOne = getCard({
+//   name: "Блузка женская",
+//   imgPath: "/img/слайдер-акции.jpg",
+//   price: "50.00 руб.",
+// });
+
+// // document.body.appendChild(cardOne)
+// parent.appendChild(cardOne)
