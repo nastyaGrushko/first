@@ -10,9 +10,10 @@
 @import "./partials/main-page/partnership/part-ship.scss";
 @import "./partials/main-page/contacts/contacts.scss";
 @import "./partials/footer/footer.scss";
+@import "./pages/catalog-page.scss";
 
 body * {
-  // outline: 1px solid lightgrey;
+  outline: 1px solid lightgrey;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }

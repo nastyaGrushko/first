@@ -1,0 +1,20 @@
+.main-container {
+    &.catalog-page {
+        padding-top: 10vh;
+        font-weight: bold;
+        .section-name {
+            font-size: 40px;
+            padding-bottom: 60px;
+        }
+    }
+}
+
+.catalog-items {
+    &_container {
+        display: flex;
+        font-size: 20px;
+        .select-option {
+            padding-bottom: 35px;
+        }
+    }
+}

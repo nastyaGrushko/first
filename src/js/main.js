@@ -35,3 +35,14 @@ $('.why-we_slider').slick({
   prevArrow: $('.fa-chevron-left'),
   nextArrow: $('.fa-chevron-right')
 });
+
+// function getCard ({name, imgPath, price, count}) {
+//   const card = document.createElement('div');
+//   card.classList.add('card');
+//   const imgContainer = document.createElement('div');
+//   imgContainer.classList.add('card-img_container');
+//   const img = document.createElement('img');
+//   img.src = imgPath;
+//   img.classList.add('card_img');
+
+// }
