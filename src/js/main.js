@@ -37,7 +37,7 @@ $('.why-we_slider').slick({
 });
 
 // function getCard ({name, imgPath, price}) {
-//   let parent = document.getElementsByClassName('catalog-item-list');
+//   // const parent = document.querySelector('.catalog-item-list');
 //   const card = document.createElement('div');
 //   card.classList.add('card');
 //   const imgContainer = document.createElement('div');
@@ -67,5 +67,5 @@ $('.why-we_slider').slick({
 //   price: "50.00 руб.",
 // });
 
-// // document.body.appendChild(cardOne)
+// const parent = document.querySelector('.catalog-item-list');
 // parent.appendChild(cardOne)
