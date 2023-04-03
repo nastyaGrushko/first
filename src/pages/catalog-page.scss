@@ -9,6 +9,18 @@
     }
 }
 
+.catalog-page {
+    &_navigation {
+        display: flex;
+        .back-to-main {
+            text-decoration: none;
+            color: $navigation-color;
+        }
+        .current-page {
+            color: $main-color-violet;
+        }
+    }
+}
 .catalog-items {
     &_container {
         display: flex;
@@ -16,5 +28,13 @@
         .select-option {
             padding-bottom: 35px;
         }
+    }
+}
+
+.cardOne-container {
+    width: fit-content;
+    .card_img {
+        width: 280px;
+        height: 320px; 
     }
 }

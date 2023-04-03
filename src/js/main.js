@@ -39,7 +39,7 @@ $('.why-we_slider').slick({
 // function getCard ({name, imgPath, price}) {
 //   // const parent = document.querySelector('.catalog-item-list');
 //   const card = document.createElement('div');
-//   card.classList.add('card');
+//   // card.classList.add('card-container');
 //   const imgContainer = document.createElement('div');
 //   imgContainer.classList.add('card-img_container');
 //   const img = document.createElement('img');
@@ -67,5 +67,9 @@ $('.why-we_slider').slick({
 //   price: "50.00 руб.",
 // });
 
-// const parent = document.querySelector('.catalog-item-list');
-// parent.appendChild(cardOne)
+// cardOne.className = "cardOne-container";
+// // console.log(cardOne.className); //просмотреть текущие значения класса
+// // cardOne.classList.add('meow');
+// // console.log(cardOne.className);
+// // const parent = document.querySelector('.meow');
+// document.querySelector('.meow').appendChild(cardOne)
