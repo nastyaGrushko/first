@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Stint+Ultra+Expanded&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
@@ -39,6 +40,7 @@
               </div>
               <div class = "button login-button_box">
                 <button class = "customer-page item login">Войти</button>
+                @@include("./partials/auth/_auth.html")
               </div>
               @@include("./partials/header/customer-page/_customer-page.html",{"item":"shopping_bag","name":"Корзина"})
               <div class = "customer-page item line"></div>

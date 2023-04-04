@@ -1,0 +1,38 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(108, 108, 108, 0.7);
+    &.on {
+        display: flex;
+    }
+
+    &_content {
+        position: relative;
+        margin: auto;
+        width: 900px;
+        height: 460px;
+        background-color: $background-color;
+        padding: 60px;
+    }
+
+    &_close {
+        &_box {
+            display: flex;
+            justify-content: end;
+        }
+        // content: "\e5cd";
+        // font-family: 'Material Symbols Outlined';
+        // font-weight: 400;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: none;
+        background-color: $main-color-violet;
+        color: $background-color;
+        justify-content: end;
+    }
+}
