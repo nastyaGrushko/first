@@ -1,5 +1,7 @@
 <div class = "modal">
     <div class = "modal_content">
+        <input type = "radio" name = "switch" id = "loginBut" class = "auth-input" checked>
+        <input type = "radio" name = "switch" id = "regBut" class = "auth-input">
         <div class = "modal_close_box">
             <button class = "modal_close">
                 <span class="material-symbols-rounded">
@@ -7,16 +9,31 @@
                 </span>
             </button>
         </div>
-        <div class="loginHeader"> Вход в личный кабинет </div>
-        <div class="modal_text">
-            <input type = "text" placeholder="Электронная почта" class = "field email-field" >
+        <div class = "modal_content_login">
+            <div class="loginHeader"> Вход в личный кабинет </div>
+            <div class="modal_text">
+                <input type = "text" placeholder="Электронная почта" class = "field email-field" >
+            </div>
+            <div class="modal_text">
+                <input type = "text" placeholder="Пароль" class = "field password-field" >
+            </div>
         </div>
-        <div class="modal_text">
-            <input type = "text" placeholder="Пароль" class = "field password-field" >
+        <div class = "modal_content_reg">
+            <div class="loginHeader"> Регистрация </div>
+            <div class="modal_text">
+                <input type = "text" placeholder = "ФИО" class = "field flName-field" >
+            </div>
+            <div class="modal_text">
+                <input type = "text" placeholder = "Электронная почта" class = "field email-field" >
+            </div>
+            <div class="modal_text">
+                <input type = "text" placeholder = "Пароль" class = "field password-field" >
+            </div>
         </div>
         <div class = "modal_footer">
-            <button class = "loginCabinet button">Войти в кабинет</button>
-            <button class = "reg button">Регистрация</button>
+            <label class = "loginCabinet button" for = "loginBut">Войти в кабинет</label>
+            <label class = "reg button" for = "regBut">Регистрация</label>
+            <button class = "button send">Отправить</button>
         </div>
     </div>
 </div>

@@ -59,20 +59,26 @@ function getCard ({name, imgPath, price}) {
   card.appendChild(imgContainer);
   const footer = document.createElement('div');
   footer.classList.add('card-footer');
+  // const cardIcons = document.createElement('div');
+  // cardIcons.classList.add('card-icons');
   const priceEl = document.createElement('div');
   priceEl.classList.add('card-price');
   priceEl.innerText = price;
   const nameEl = document.createElement('div');
   nameEl.innerText = name;
   nameEl.classList.add('card-name');
-  footer.append(priceEl, nameEl);
+  const moreButton = document.createElement('button');
+  moreButton.classList.add('button');
+  moreButton.innerText = 'Подробнее';
+
+  footer.append(priceEl, nameEl, moreButton);
 
   card.appendChild(footer);
   return card;
 }
 
 const cardOne = getCard({
-  name: "Блузка женская",
+  name: "Блузка женская классная",
   imgPath: "/img/слайдер-акции.jpg",
   price: "50.00 руб.",
 });

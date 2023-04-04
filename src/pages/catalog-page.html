@@ -27,6 +27,7 @@
             </span>
             <input type = "text" placeholder="Поиск" class = "search-field" >
         </div>
+        @@include("../partials/auth/_auth.html")
         <div class = "person_container">
           <span class = "material-symbols-outlined person_button">
             person
@@ -37,7 +38,6 @@
             </div>
             <div class = "login-button_box">
               <button class = "customer-page item login">Войти</button>
-              @@include("../partials/auth/_auth.html")
             </div>
             @@include("../partials/header/customer-page/_customer-page.html",{"item":"shopping_bag","name":"Корзина"})
             <div class = "customer-page item line"></div>

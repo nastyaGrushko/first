@@ -8,14 +8,14 @@
     background-color: rgba(108, 108, 108, 0.7);
     &.on {
         display: flex;
-        .reg {
-            &.button {
-                color: $main-color-violet;
-                font-weight: bold;
-                background: none;
-                cursor: pointer;
-            }
-        }
+        // .reg {
+        //     &.button {
+        //         color: $main-color-violet;
+        //         font-weight: bold;
+        //         background: none;
+        //         cursor: pointer;
+        //     }
+        // }
     }
 
     &_content {
@@ -32,6 +32,30 @@
         .field {
             margin-top: 30px;
             font-size: 16px;
+        }
+
+        #loginBut:checked ~ .modal_content_login {
+            display: block;
+        }
+
+        #loginBut:checked ~ .modal_content_reg {
+            display: none;
+        }
+
+        #loginBut:checked ~ .modal_footer .send {
+            display: none;
+        }
+
+        #regBut:checked ~ .modal_content_reg {
+            display: block;
+        }
+    
+        #regBut:checked ~ .modal_content_login {
+            display: none;
+        }
+
+        .auth-input {
+            display: none;
         }
     }
 
