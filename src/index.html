@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- <div class = "main-container"> -->
-      <header>
+    <header>
         <label for = "status" class="material-symbols-outlined dehaze">
           dehaze
         </label >
@@ -38,7 +38,7 @@
               <div class = "customer-page photo_box">
                 <div class = "customer-page photo"></div>
               </div>
-              <div class = "button login-button_box">
+              <div class = "login-button_box">
                 <button class = "customer-page item login">Войти</button>
                 @@include("./partials/auth/_auth.html")
               </div>
@@ -55,9 +55,9 @@
             shopping_bag
           </span>
         </div>
-      </header>
-      <input type = "checkbox" id = "status" class = "menu-input">
-      <div class="menu-container">
+    </header>
+    <input type = "checkbox" id = "status" class = "menu-input">
+    <div class="menu-container">
         <label for = "status" class="menu-item closer">
           <img src = "./img/Надпись неон.jpg">
         </label>
@@ -70,10 +70,7 @@
         @@include("./partials/main-page/sale/_sale.html",{"text": "Большие размеры","class":"menu-item"})
         @@include("./partials/main-page/sale/_sale.html",{"text": "Дополнительно","class":"menu-item"})
         @@include("./partials/main-page/sale/_sale.html",{"text": "Акции","class":"menu-item"})
-      </div>
-      <!-- <div class = "meow">
-        meow
-      </div> -->
+    </div>
     <div class = "main-container">
       <div class = "main-page_catalog">
         <div class = "main-page">
@@ -206,17 +203,17 @@
             </div>
             <div class = "contact-fields">
               <div class="field_box">
-                <input type = "text" placeholder="Ваше имя" class = "name-field" >
+                <input type = "text" placeholder="Ваше имя" class = "field name-field" >
               </div>
               <div class="field_box">
-                <input type = "text" placeholder="Номер телефона" class = "phone-field" >
+                <input type = "text" placeholder="Номер телефона" class = "field phone-field" >
               </div>
               <div class="field_box">
-                <input type = "text" placeholder="Электронная почта" class = "email-field" >
+                <input type = "text" placeholder="Электронная почта" class = "field email-field" >
               </div>
             </div>
-            <div class = "button">
-              <button class = "more-button">
+            <div class = "button_box">
+              <button class = "button">
                 Отправить 
                 <span class="material-symbols-outlined arrow">
                   arrow_right_alt

@@ -68,7 +68,15 @@ const cardOne = getCard({
 
 cardOne.className = "product-items_container cardOne-container";
 // console.log(cardOne.className); //просмотреть текущие значения класса
-// cardOne.classList.add('meow');
-// console.log(cardOne.className);
-// const parent = document.querySelector('.meow');
 document.querySelector('.catalog-item-list').appendChild(cardOne)
+
+const modal = document.querySelector('.modal');
+const closer = modal.querySelector('.modal_close');
+closer.addEventListener('click', () => {
+  modal.classList.remove('on');
+})
+// const showModal = () => {
+//   modal.classList.add('on');
+// }
+// const login = document.querySelector('.login');
+// login.addEventListener('click', showModal)
