@@ -36,6 +36,17 @@ $('.why-we_slider').slick({
   nextArrow: $('.fa-chevron-right')
 });
 
+const modal = document.querySelector('.modal');
+const closer = document.querySelector('.modal_close');
+closer.addEventListener('click', () => {
+  modal.classList.remove('on');
+})
+const showModal = () => {
+  modal.classList.add('on');
+}
+const login = document.querySelector('.login');
+login.addEventListener('click', showModal)
+
 function getCard ({name, imgPath, price}) {
   const card = document.createElement('div');
   // card.classList.add('card-container');
@@ -69,14 +80,3 @@ const cardOne = getCard({
 cardOne.className = "product-items_container cardOne-container";
 // console.log(cardOne.className); //просмотреть текущие значения класса
 document.querySelector('.catalog-item-list').appendChild(cardOne)
-
-const modal = document.querySelector('.modal');
-const closer = modal.querySelector('.modal_close');
-closer.addEventListener('click', () => {
-  modal.classList.remove('on');
-})
-// const showModal = () => {
-//   modal.classList.add('on');
-// }
-// const login = document.querySelector('.login');
-// login.addEventListener('click', showModal)

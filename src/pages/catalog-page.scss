@@ -29,6 +29,18 @@
             padding-bottom: 35px;
         }
     }
+    &_select {
+        .accordion:after {
+            content: '\e5cf';
+            font-family: 'Material Symbols Outlined';
+            font-weight: 400;
+        }
+        .active:after {
+            content: "\e5ce";
+            font-family: 'Material Symbols Outlined';
+            font-weight: 400;
+        }
+    }
 }
 
 .cardOne-container {
