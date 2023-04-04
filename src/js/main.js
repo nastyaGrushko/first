@@ -71,4 +71,4 @@ cardOne.className = "product-items_container cardOne-container";
 // cardOne.classList.add('meow');
 // console.log(cardOne.className);
 // const parent = document.querySelector('.meow');
-document.querySelector('.meow').appendChild(cardOne)
+document.querySelector('.catalog-item-list').appendChild(cardOne)
