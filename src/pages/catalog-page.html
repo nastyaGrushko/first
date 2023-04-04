@@ -61,8 +61,11 @@
       </div>
       <div class = "catalog-items_container">
         <div class = "catalog-items_select">
-          <div class = "select-option">Цена</div>
-          <div class = "select-option">Размер</div>
+          <div class = "select-option">Цена, б.р.</div>
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="1" class="range">
+          </div>
+          @@include("../partials/main-page/faq-part/_faq-accordion.html",{"section":"Размер","text":"meow"})
           <div class = "select-option">Цвета</div>
         </div>
         <div class = "catalog-item-list">
