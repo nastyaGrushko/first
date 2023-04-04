@@ -37,14 +37,13 @@ $('.why-we_slider').slick({
 });
 
 // function getCard ({name, imgPath, price}) {
-//   // const parent = document.querySelector('.catalog-item-list');
 //   const card = document.createElement('div');
 //   // card.classList.add('card-container');
 //   const imgContainer = document.createElement('div');
-//   imgContainer.classList.add('card-img_container');
+//   imgContainer.classList.add('product-img-box');
 //   const img = document.createElement('img');
 //   img.src = imgPath;
-//   img.classList.add('card_img');
+//   img.classList.add('product-img');
 //   imgContainer.append(img);
 //   card.appendChild(imgContainer);
 //   const footer = document.createElement('div');
@@ -67,7 +66,7 @@ $('.why-we_slider').slick({
 //   price: "50.00 руб.",
 // });
 
-// cardOne.className = "cardOne-container";
+// cardOne.className = "product-items_container cardOne-container";
 // // console.log(cardOne.className); //просмотреть текущие значения класса
 // // cardOne.classList.add('meow');
 // // console.log(cardOne.className);

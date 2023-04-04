@@ -32,6 +32,22 @@
     }
 }
 
+@media(max-width: 1070px) {
+  .left-main-img {
+    width: 60%;
+    height: auto;
+  }
+  .right-main-img {
+    height: 40vh;
+    width: auto;
+  }
+  .main-page-text {
+    & .greeting {
+      font-size: 45px
+    }
+  }
+}
+
 @media (max-width: 600px) {
   .left-main-img, .right-main-img {
     display: none;
