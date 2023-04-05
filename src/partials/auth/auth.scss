@@ -8,21 +8,13 @@
     background-color: rgba(108, 108, 108, 0.7);
     &.on {
         display: flex;
-        // .reg {
-        //     &.button {
-        //         color: $main-color-violet;
-        //         font-weight: bold;
-        //         background: none;
-        //         cursor: pointer;
-        //     }
-        // }
     }
 
     &_content {
         position: relative;
         margin: auto;
         width: 900px;
-        height: 460px;
+        height: fit-content;
         background-color: $background-color;
         padding: 60px;
         .loginHeader {
@@ -39,10 +31,6 @@
         }
 
         #loginBut:checked ~ .modal_content_reg {
-            display: none;
-        }
-
-        #loginBut:checked ~ .modal_footer .send {
             display: none;
         }
 
@@ -72,10 +60,15 @@
         color: $background-color;
         justify-content: end;
     }
+}
 
-    &_footer {
-        display: flex;
-        gap: 45px;
-        padding-top: 30px;
-    }
+.regLabel, .loginLabel {
+    color: $main-color-violet;
+    font-weight: 700;
+}
+.regLabel:hover, .loginLabel:hover {
+    cursor: pointer;
+}
+.label {
+    margin: 30px 0;
 }

@@ -11,29 +11,36 @@
         </div>
         <div class = "modal_content_login">
             <div class="loginHeader"> Вход в личный кабинет </div>
-            <div class="modal_text">
-                <input type = "text" placeholder="Электронная почта" class = "field email-field" >
-            </div>
-            <div class="modal_text">
-                <input type = "text" placeholder="Пароль" class = "field password-field" >
-            </div>
+            <form >
+                <div class="modal_text">
+                    <input type = "text" placeholder="Электронная почта" class = "field email-field" >
+                </div>
+                <div class="modal_text">
+                    <input type = "password" placeholder="Пароль" class = "field password-field" >
+                </div>
+                <div class="label">
+                    <label class = "regLabel" for = "regBut">Первый раз на сайте?</label>
+                </div>
+                <button class = "loginCabinet button"> Войти в кабинет </button>
+            </form>
         </div>
         <div class = "modal_content_reg">
             <div class="loginHeader"> Регистрация </div>
-            <div class="modal_text">
-                <input type = "text" placeholder = "ФИО" class = "field flName-field" >
-            </div>
-            <div class="modal_text">
-                <input type = "text" placeholder = "Электронная почта" class = "field email-field" >
-            </div>
-            <div class="modal_text">
-                <input type = "text" placeholder = "Пароль" class = "field password-field" >
-            </div>
-        </div>
-        <div class = "modal_footer">
-            <label class = "loginCabinet button" for = "loginBut">Войти в кабинет</label>
-            <label class = "reg button" for = "regBut">Регистрация</label>
-            <button class = "button send">Отправить</button>
+            <form>
+                <div class="modal_text">
+                    <input type = "text" placeholder = "ФИО" class = "field flName-field" >
+                </div>
+                <div class="modal_text">
+                    <input type = "text" placeholder = "Электронная почта" class = "field email-field" >
+                </div>
+                <div class="modal_text">
+                    <input type = "password" placeholder = "Пароль" class = "field password-field" >
+                </div>
+                <div class="label">
+                    <label class = "loginLabel" for = "loginBut">Уже есть страница? Войти</label>
+                </div>
+                <button class = "button send">Отправить</button>
+            </form>
         </div>
     </div>
 </div>

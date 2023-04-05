@@ -1,3 +1,5 @@
+// import {} from "./modules/auth.js"
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -12,7 +14,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
+//
 $('.sale_slick_box').slick({
   lazyLoad: 'ondemand',
   slidesToShow: 4,
@@ -35,7 +37,7 @@ $('.why-we_slider').slick({
   prevArrow: $('.fa-chevron-left'),
   nextArrow: $('.fa-chevron-right')
 });
-
+//
 const modal = document.querySelector('.modal');
 const closer = document.querySelector('.modal_close');
 closer.addEventListener('click', () => {
@@ -46,7 +48,9 @@ const showModal = () => {
 }
 const login = document.querySelector('.login');
 login.addEventListener('click', showModal)
+//
 
+//
 function getCard ({name, imgPath, price}) {
   const card = document.createElement('div');
   // card.classList.add('card-container');
